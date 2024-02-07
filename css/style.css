@@ -6662,6 +6662,9 @@ button.bg-danger:focus {
 .bg-light {
   background-color: lightgoldenrodyellow !important;
 }
+.bg-light1 {
+  background-color:lightsteelblue !important;
+}
 
 a.bg-light:hover,
 a.bg-light:focus,
@@ -10142,8 +10145,14 @@ h6,
 
 .bg-jumbotron {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/carousal-2.jpg), no-repeat center center;
+    url(../imge/girl_with_grey.webp), no-repeat center center;
   background-size: cover;
+}
+.bg-jumbotron1{
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/skin-treat.png), no-repeat center center;
+  background-size: cover;
+
 }
 
 @media (min-width: 992px) {
