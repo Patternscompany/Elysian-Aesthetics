@@ -6686,7 +6686,7 @@ button.bg-dark:focus {
 
 .bg-white {
   background-color: #e9ecef !important;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .bg-transparent {
