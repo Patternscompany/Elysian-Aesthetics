@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Elysian Aesthetic Clinic</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="imge/logo.png">
+    <link rel="icon" type="image/x-icon" href="imge/logo.png" />
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
     <!--book table script-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <script type="text/javascript">
-        (function () {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init('39hCsEwrxcKGEpEyd');
-        })();
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init("39hCsEwrxcKGEpEyd");
+      })();
     </script>
     <!--book table script-->
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <!-- Topbar Start -->
-    <div class="container-fluid d-lg-block" style="background: transparent linear-gradient(90deg, #865c22 0%, #ecc851 100%) 0% 0% no-repeat padding-box;padding: 0;">
+    <!-- <div class="container-fluid d-lg-block" style="background: transparent linear-gradient(90deg, #865c22 0%, #ecc851 100%) 0% 0% no-repeat padding-box;padding: 0;">
         <div class="row py-2 px-lg-5">
             <div class="col-lg-6 text-left mb-2 mb-lg-0">
                 <div class="top-s">
@@ -66,11 +74,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Topbar End -->
 
     <style>
-        /* @keyframes textShine {
+      /* @keyframes textShine {
             0% {
                 background-position: 0% 50%;
             }
@@ -98,132 +106,341 @@
         } */
     </style>
     <!-- Navbar Start -->
-    
-        
+
     <!-- Navbar End -->
 
-
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5  walk">    
+    <div class="container-fluid p-0 mb-5 walk">
+      <div
+        id="header-carousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#header-carousel"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#header-carousel" data-slide-to="1"></li>
+          <li data-target="#header-carousel" data-slide-to="2"></li>
+          <li data-target="#header-carousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner cI">
+          <div class="container-fluid n" style="padding: 0">
+            <nav
+              class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5"
+            >
+              <a href="#" class="navbar-brand ml-lg-3">
+                <img
+                  class="logo"
+                  src="./imge/logo.png"
+                  alt=""
+                  style="width: 90px"
+                />
+              </a>
+              <button
+                type="button"
+                style="
+                  background-color: #f9df7a;
+                  box-shadow: 0px 2px 10px #f9df7a;
+                "
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#navbarCollapse"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-between px-lg-3"
+                id="navbarCollapse"
+              >
+                <div class="navbar-nav m-auto py-0">
+                  <li>
+                    <a href="#" class="nav-item nav-link active nav">Home</a>
+                  </li>
+                  <li>
+                    <a href="about.html" class="nav-item nav-link nav">About</a>
+                  </li>
+                  <li class="drop-down">
+                    <a href="service.html" class="nav-item nav-link nav"
+                      >Services
+                    </a>
+                    <ul class="drop-items">
+                      <li>
+                        <a href="./services/skin-treatment.html"
+                          >Skin-Treatment</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./services/hair-treatment.html"
+                          >Hair-Treatment</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
 
-        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#header-carousel" data-slide-to="1"></li>
-                <li data-target="#header-carousel" data-slide-to="2"></li>
-                <li data-target="#header-carousel" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner cI">
-                <div class="container-fluid n" style="padding: 0;">
-                    <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5">
-                        <a href="#" class="navbar-brand ml-lg-3">
-                            <img class="logo" src="./imge/logo.png" alt="" style="width:90px" />
-                        </a>
-                        <button type="button" style="background-color: #f9df7a; box-shadow: 0px 2px 10px #f9df7a;"
-                            class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                            <div class="navbar-nav m-auto py-0">
-                                <a href="#" class="nav-item nav-link active nav">Home</a>
-                                <a href="about.html" class="nav-item nav-link nav">About</a>
-                                <a href="service.html" class="nav-item nav-link nav">Services</a>
-                                <a href="treatment.html" class="nav-item nav-link nav">Treatment</a>
-            
-                                <a href="gallery.html" class="nav-item nav-link nav">Gallery</a>
-            
-                                <a href="contact.html" class="nav-item nav-link nav">Contact us</a>
-                            </div>
-                            <a href="#appointment" class="btn btn-primary d-none d-lg-block nav" style="padding-left: 10px;">Book
-                                Now</a>
-                        </div>
-                    </nav>
-                </div>
+                  <li>
+                    <a href="gallery.html" class="nav-item nav-link nav"
+                      >Gallery</a
+                    >
+                  </li>
 
+                  <li>
+                    <a href="contact.html" class="nav-item nav-link nav"
+                      >Contact us</a
+                    >
+                  </li>
+                </div>
+                <a
+                  href="#appointment"
+                  class="btn btn-primary d-none d-lg-block nav"
+                  style="
+                    padding-left: 10px;
+                    background-color: #865c22;
+                    color: black !important;
+                  "
+                  >Book Now</a
+                >
+              </div>
+            </nav>
+          </div>
+          <style>
+            li.drop-down {
+              position: relative;
+            }
+            li.drop-down .drop-items {
+              position: absolute;
+              top: 100%;
+              background-color: #865c22 !important;
+              padding: 0;
+              left: 30%;
+              display: none;
+              width: 200px;
+              z-index: 9999;
+              border-radius: 5px;
+            }
+            li.drop-down .drop-items li {
+              padding: 12px 22px;
+              /* background-color: #613030; */
+              list-style-type: none;
+              border-radius: 5px;
 
-                <div class="carousel-item position-relative Ci" style="min-height: 100vh;">
-                    <img class="position-absolute w-100 h-100 cImg laptop" src="imge/acne.jpg"
-                        style="object-fit: cover;">
-                    <img class="position-absolute w-100 h-100 cImg mobile" src="imge/acne.jpg"
-                        style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
-                                style="letter-spacing: 3px;">Cosmetology Clinic</h6>
-                            <h3 class="display-3 text-capitalize text-white mb-3">Reveal a 'Fresher' you with Laser Carbon Peel</h3>
-                            <p class="mx-md-5 px-5">Treats acne stars,enlarged pores, oily skin,uneven skin tone & skin texture. </p>
-                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp"
-                                href="#">Make Appointment</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item position-relative Ci" style="min-height: 100vh;">
-                    <img class="position-absolute w-100 h-100 cImg laptop" src="imge/homeslider.4.avif"
-                        style="object-fit: cover;">
-                    <img class="position-absolute w-100 h-100 cImg mobile" src="imge/homeslider.4.avif"
-                        style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
-                                style="letter-spacing: 3px;">Cosmetology Clinic</h6>
-                            <h3 class="display-3 text-capitalize text-white mb-3">NO WAXING HASSLES</h3>
-                            <p class="mx-md-5 px-5">Painless laser hair remover treatment to get yourself smooth and silky skin forever</p>
-                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp"
-                                href="#">Make Appointment</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item position-relative Ci" style="min-height: 100vh;">
-                    <img class="position-absolute w-100 h-100 cImg laptop" src="imge/menland.avif"
-                        style="object-fit: cover;">
-                    <img class="position-absolute w-100 h-100 cImg mobile" src="imge/menland.avif"
-                        style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
-                                style="letter-spacing: 3px;">Cosmetology Clinic</h6>
-                            <h3 class="display-3 text-capitalize text-white mb-3">GFC HAIR TREATMENT</h3>
-                            <p class="mx-md-5 px-5">GFC hair treatment is a revolutionary hair care solution designed to nourish and strengthen hair, leaving it visibly healthier and more vibrant.</p>
-                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp"
-                                href="#">Make Appointment</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item position-relative active Ci" style="min-height: 100vh;">
-                    <img class="position-absolute w-100 h-100 cImg" src="imge/clearfit.webp" style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
-                                style="letter-spacing: 3px;">Cosmetology Clinic</h6>
-                            <h3 class="display-3 text-capitalize text-white mb-3 l">OXY HYDRA FACIAL</h3>
-                            <p class="mx-md-5 px-5">
-                                Oxy HydraFacial is a rejuvenating skincare treatment that combines the benefits of oxygen therapy and hydradermabrasion, promoting smoother, hydrated skin with a radiant glow.</p>
-                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp"
-                                href="#">Make Appointment</a>
-                        </div>
-                    </div>
-                </div>
-                
-             
-                <div class="carousel-item position-relative Ci" style="min-height: 100vh;">
-                    <img class="position-absolute w-100 h-100 cImg laptop" src="imge/homeslider.4.avif"
-                        style="object-fit: cover;">
-                    <img class="position-absolute w-100 h-100 cImg mobile" src="imge/homeslider.4.avif"
-                        style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
-                                style="letter-spacing: 3px;">Cosmetology Clinic</h6>
-                            <h3 class="display-3 text-capitalize text-white mb-3">NO WAXING HASSLES</h3>
-                            <p class="mx-md-5 px-5">Painless laser hair remover treatment to get yourself smooth and silky skin forever</p>
-                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp"
-                                href="#">Make Appointment</a>
-                        </div>
-                    </div>
-                </div>
+              border-bottom: 1px solid white;
+            }
+            li.drop-down .drop-items li a {
+              color: white;
+              text-decoration: none;
+              font-size: 16px;
+              font-weight: 600;
+              text-transform: uppercase;
+            }
+            li.drop-down .drop-items li:hover {
+              background-color: #613030;
+            }
+            li.drop-down .drop-items li:hover a {
+              color: white;
+            }
+            li.drop-down:hover .drop-items {
+              display: block;
+            }
+          </style>
+          <div
+            class="carousel-item position-relative Ci"
+            style="min-height: 100vh"
+          >
+            <img
+              class="position-absolute w-100 h-100 cImg laptop"
+              src="imge/acne.jpg"
+              style="object-fit: cover"
+            />
+            <img
+              class="position-absolute w-100 h-100 cImg mobile"
+              src="imge/acne.jpg"
+              style="object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <h6
+                  class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
+                  style="letter-spacing: 3px"
+                >
+                  Cosmetology Clinic
+                </h6>
+                <h3 class="display-3 text-capitalize text-white mb-3">
+                  Reveal a 'Fresher' you with Laser Carbon Peel
+                </h3>
+                <p class="mx-md-5 px-5">
+                  Treats acne stars,enlarged pores, oily skin,uneven skin tone &
+                  skin texture.
+                </p>
+                <a
+                  class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp"
+                  href="#"
+                  >Make Appointment</a
+                >
+              </div>
             </div>
+          </div>
+          <div
+            class="carousel-item position-relative Ci"
+            style="min-height: 100vh"
+          >
+            <img
+              class="position-absolute w-100 h-100 cImg laptop"
+              src="imge/homeslider.4.avif"
+              style="object-fit: cover"
+            />
+            <img
+              class="position-absolute w-100 h-100 cImg mobile"
+              src="imge/homeslider.4.avif"
+              style="object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <h6
+                  class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
+                  style="letter-spacing: 3px"
+                >
+                  Cosmetology Clinic
+                </h6>
+                <h3 class="display-3 text-capitalize text-white mb-3">
+                  NO WAXING HASSLES
+                </h3>
+                <p class="mx-md-5 px-5">
+                  Painless laser hair remover treatment to get yourself smooth
+                  and silky skin forever
+                </p>
+                <a
+                  class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp"
+                  href="#"
+                  >Make Appointment</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="carousel-item position-relative Ci"
+            style="min-height: 100vh"
+          >
+            <img
+              class="position-absolute w-100 h-100 cImg laptop"
+              src="imge/menland.avif"
+              style="object-fit: cover"
+            />
+            <img
+              class="position-absolute w-100 h-100 cImg mobile"
+              src="imge/menland.avif"
+              style="object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <h6
+                  class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
+                  style="letter-spacing: 3px"
+                >
+                  Cosmetology Clinic
+                </h6>
+                <h3 class="display-3 text-capitalize text-white mb-3">
+                  GFC HAIR TREATMENT
+                </h3>
+                <p class="mx-md-5 px-5">
+                  GFC hair treatment is a revolutionary hair care solution
+                  designed to nourish and strengthen hair, leaving it visibly
+                  healthier and more vibrant.
+                </p>
+                <a
+                  class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp"
+                  href="#"
+                  >Make Appointment</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item position-relative active Ci"
+            style="min-height: 100vh"
+          >
+            <img
+              class="position-absolute w-100 h-100 cImg"
+              src="imge/clearfit.webp"
+              style="object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <h6
+                  class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
+                  style="letter-spacing: 3px"
+                >
+                  Cosmetology Clinic
+                </h6>
+                <h3 class="display-3 text-capitalize text-white mb-3 l">
+                  OXY HYDRA FACIAL
+                </h3>
+                <p class="mx-md-5 px-5">
+                  Oxy HydraFacial is a rejuvenating skincare treatment that
+                  combines the benefits of oxygen therapy and hydradermabrasion,
+                  promoting smoother, hydrated skin with a radiant glow.
+                </p>
+                <a
+                  class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp"
+                  href="#"
+                  >Make Appointment</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item position-relative Ci"
+            style="min-height: 100vh"
+          >
+            <img
+              class="position-absolute w-100 h-100 cImg laptop"
+              src="imge/homeslider.4.avif"
+              style="object-fit: cover"
+            />
+            <img
+              class="position-absolute w-100 h-100 cImg mobile"
+              src="imge/homeslider.4.avif"
+              style="object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <h6
+                  class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
+                  style="letter-spacing: 3px"
+                >
+                  Cosmetology Clinic
+                </h6>
+                <h3 class="display-3 text-capitalize text-white mb-3">
+                  NO WAXING HASSLES
+                </h3>
+                <p class="mx-md-5 px-5">
+                  Painless laser hair remover treatment to get yourself smooth
+                  and silky skin forever
+                </p>
+                <a
+                  class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp"
+                  href="#"
+                  >Make Appointment</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Carousel End -->
 
@@ -232,79 +449,129 @@
 -->
 
     <div class="whatsapp">
-        <a href="https://wa.me/+9173866 39379" class="fab fa-whatsapp"></a>
+      <a href="https://wa.me/+9173866 39379" class="fab fa-whatsapp"></a>
     </div>
     <!--
     whatsapp logo
 -->
     <!-- About Start -->
-    <div class="container-fluid py-2" style="background-color: #fff757;">
-        <div class="container py-5">
-            <div class="row align-items-center">
-
-                <div class="col-lg-6">
-                    <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">About Us</h6>
-                    <h1 class="mb-4">Elysian Aesthetic Clinic</h1>
-                    <p class="pl-4 border-left border-primary">Welcome to Elysian Aesthetic Clinic, where beauty meets expertise. Our clinic is dedicated to enhancing your natural radiance through advanced aesthetic treatments tailored to your unique needs. With a team of skilled professionals and state-of-the-art facilities, we strive to provide a personalized and transformative experience, redefining beauty with confidence and care.</p>
-                    <p class="pl-4 border-left border-primary">we specialize in harmonizing hair and beauty, offering a seamless blend of personalized hair care and aesthetic treatments. Our skilled team is committed to elevating your unique style and confidence, creating a haven where your beauty flourishes.</p>
-                    <div class="row pt-3" style="display: flex;justify-content: center;align-items: center;">
-                        <div class="col-4">
-                            <div class="bg-light text-center p-2">
-                                <h3 class="display-4 text-primary" data-toggle="counter-up">99</h3>
-                                <h6 class="text-uppercase">Clinic Specialist</h6>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="bg-light text-center p-2">
-                                <h3 class="display-4 text-primary" data-toggle="counter-up">999</h3>
-                                <h6 class="text-uppercase">Happy Clients</h6>
-                            </div>
-                        </div>
-                    </div>
+    <div class="container-fluid py-2" style="background-color: #fff757">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h6
+              class="d-inline-block text-primary text-uppercase bg-light py-1 px-2"
+            >
+              About Us
+            </h6>
+            <h1 class="mb-4">Elysian Aesthetic Clinic</h1>
+            <p class="pl-4 border-left border-primary">
+              Welcome to Elysian Aesthetic Clinic, where beauty meets expertise.
+              Our clinic is dedicated to enhancing your natural radiance through
+              advanced aesthetic treatments tailored to your unique needs. With
+              a team of skilled professionals and state-of-the-art facilities,
+              we strive to provide a personalized and transformative experience,
+              redefining beauty with confidence and care.
+            </p>
+            <p class="pl-4 border-left border-primary">
+              we specialize in harmonizing hair and beauty, offering a seamless
+              blend of personalized hair care and aesthetic treatments. Our
+              skilled team is committed to elevating your unique style and
+              confidence, creating a haven where your beauty flourishes.
+            </p>
+            <div
+              class="row pt-3"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <div class="col-4">
+                <div class="bg-light text-center p-2">
+                  <h3 class="display-4 text-primary" data-toggle="counter-up">
+                    99
+                  </h3>
+                  <h6 class="text-uppercase">Clinic Specialist</h6>
                 </div>
-                <div class="col-lg-6 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100"  src="imge/aboutus.jpg" alt="" style="margin-top:10px">
+              </div>
+              <div class="col-4">
+                <div class="bg-light text-center p-2">
+                  <h3 class="display-4 text-primary" data-toggle="counter-up">
+                    999
+                  </h3>
+                  <h6 class="text-uppercase">Happy Clients</h6>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-6 pb-5 pb-lg-0">
+            <img
+              class="img-fluid w-100"
+              src="imge/aboutus.jpg"
+              alt=""
+              style="margin-top: 10px"
+            />
+          </div>
         </div>
+      </div>
     </div>
     <!-- About End -->
-    <div class="container-fluid py-2" style="background-color: #b78a42; ">
-        <div class="container">
-            <div class="row align-items-center">
-
-                <div class="col-lg-6">
-                    <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">Aesthetic Clinic</h6>
-                    <h1 class="mb-4 text-white">Your Best Cosmetology Clinic</h1>
-                    <h2 class="text-white">Skin Treatment</h2>
-                    <p class="pl-4 border-left border-primary text-white">We dive deep into figuring out the root cause behind your acne flare-ups and accordingly provide treatments based on your acne type or severity.</p>
-                   
-                   
-                    
-                </div>
-                <div class="col-lg-6  pb-lg-0">
-                    <img class="img-fluid w-100" src="imge/skin-treat.png" alt=""
-                        style="height:auto;object-fit: scale-down;">
-                </div>
-            </div>
+    <div class="container-fluid py-2" style="background-color: #b78a42">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h6
+              class="d-inline-block text-primary text-uppercase bg-light py-1 px-2"
+            >
+              Aesthetic Clinic
+            </h6>
+            <h1 class="mb-4 text-white">Your Best Cosmetology Clinic</h1>
+            <h2 class="text-white">Skin Treatment</h2>
+            <p class="pl-4 border-left border-primary text-white">
+              We dive deep into figuring out the root cause behind your acne
+              flare-ups and accordingly provide treatments based on your acne
+              type or severity.
+            </p>
+          </div>
+          <div class="col-lg-6 pb-lg-0">
+            <img
+              class="img-fluid w-100"
+              src="imge/skin-treat.png"
+              alt=""
+              style="height: auto; object-fit: scale-down"
+            />
+          </div>
         </div>
+      </div>
     </div>
-   
 
-
-    <div class="container-fluid py-2" style="background-color: #b78a42;">
-        <div class="container ">
-            <div class="row align-items-center">
-                <div class="col-lg-6  pb-lg-0">
-                    <img class="img-fluid w-100" src="imge/hair-girl.png" alt=""
-                        style="height: 330px;object-fit: scale-down; padding-bottom: 10px;">
-                </div>
-                <div class="col-lg-6">
-                    <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">Aesthetic Center</h6> -->
-                    <h1 class="mb-4 text-white">Your Best Cosmetology Clinic</h1>
-                    <h2 class="text-white">Hair Treatment</h2>
-                    <p class="pl-4 border-left border-primary text-white">Our hair loss doctors conduct a deep analysis of your concern. Upon finding the cause of hair loss we serve you with the best surgical or non-surgical hair restoration treatments at the Centre. </p>
-                    <!-- <div class="row pt-3">
+    <div class="container-fluid py-2" style="background-color: #b78a42">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 pb-lg-0">
+            <img
+              class="img-fluid w-100"
+              src="imge/hair-girl.png"
+              alt=""
+              style="
+                height: 330px;
+                object-fit: scale-down;
+                padding-bottom: 10px;
+              "
+            />
+          </div>
+          <div class="col-lg-6">
+            <!-- <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">Aesthetic Center</h6> -->
+            <h1 class="mb-4 text-white">Your Best Cosmetology Clinic</h1>
+            <h2 class="text-white">Hair Treatment</h2>
+            <p class="pl-4 border-left border-primary text-white">
+              Our hair loss doctors conduct a deep analysis of your concern.
+              Upon finding the cause of hair loss we serve you with the best
+              surgical or non-surgical hair restoration treatments at the
+              Centre.
+            </p>
+            <!-- <div class="row pt-3">
                         <div class="col-6">
                             <div class="bg-light text-center p-4">
                                 <h3 class="display-4 text-primary" data-toggle="counter-up">99</h3>
@@ -318,74 +585,116 @@
                             </div>
                         </div>
                     </div> -->
-                </div>
-
-            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!--Gallery start-->
 
-
-
-    <div class="container-fluid px-0 py-2 " style="background-color: #3ba0c6;">
-
-        <div class="row mx-0 justify-content-center text-center">
-            <div class="col-lg-6">
-                <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">Gallery</h6>
-                <h1>Our Works</h1>
-            </div>
+    <div class="container-fluid px-0 py-2" style="background-color: #3ba0c6">
+      <div class="row mx-0 justify-content-center text-center">
+        <div class="col-lg-6">
+          <h6
+            class="d-inline-block bg-light text-primary text-uppercase py-1 px-2"
+          >
+            Gallery
+          </h6>
+          <h1>Our Works</h1>
         </div>
-        <div class="owl-carousel service-carousel" style="height: 350px;">
-            <div class="service-item position-relative" style="height: 350px;">
-                <img class="img-fluid" src="imge/g-1.avif" alt="" style="height: 100%;object-fit: cover;">
-
-            </div>
-            <div class="service-item position-relative" style="height: 350px;">
-                <img class="img-fluid" src="imge/g-2.avif" alt="" style="height: 100%;object-fit: cover;">
-
-            </div>
-            <div class="service-item position-relative" style="height: 350px;">
-                <img class="img-fluid" src="imge/g-3.avif" alt="" style="height: 100%;object-fit: cover;">
-
-            </div>
-            <div class="service-item position-relative" style="height: 350px;">
-                <img class="img-fluid" src="imge/g-4.avif" alt="" style="height: 100%;object-fit: cover;">
-
-            </div>
-            <div class="service-item position-relative" style="height: 350px;">
-                <img class="img-fluid" src="imge/g-5.avif" alt="" style="height: 100%;object-fit: cover;">
-
-            </div>
-            <div class="service-item position-relative" style="height: 350px;">
-                <img class="img-fluid" src="imge/g-6.avif" alt="" style="height: 100%;object-fit: cover;">
-
-            </div>
-            <div class="service-item position-relative" style="height: 350px;">
-                <img class="img-fluid" src="imge/g-7.avif" alt="" style="height: 100%;object-fit: cover;">
-
-            </div>
-            <div class="service-item position-relative" style="height: 350px;">
-                <img class="img-fluid" src="imge/g-8.avif" alt="" style="height: 100%;object-fit: cover;">
-
-            </div>
-            <div class="service-item position-relative" style="height: 350px;">
-                <img class="img-fluid" src="imge/g-9.avif" alt="" style="height: 100%;object-fit: cover;">
-
-            </div>
-            <div class="service-item position-relative" style="height: 350px;">
-                <img class="img-fluid" src="imge/g-10.avif" alt="" style="height: 100%;object-fit: cover;">
-
-            </div>
-            <div class="service-item position-relative" style="height: 350px;">
-                <img class="img-fluid" src="imge/g-12.avif" alt="" style="height: 100%;object-fit: cover;">
-
-            </div>
+      </div>
+      <div class="owl-carousel service-carousel" style="height: 350px">
+        <div class="service-item position-relative" style="height: 350px">
+          <img
+            class="img-fluid"
+            src="imge/g-1.avif"
+            alt=""
+            style="height: 100%; object-fit: cover"
+          />
         </div>
+        <div class="service-item position-relative" style="height: 350px">
+          <img
+            class="img-fluid"
+            src="imge/g-2.avif"
+            alt=""
+            style="height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="service-item position-relative" style="height: 350px">
+          <img
+            class="img-fluid"
+            src="imge/g-3.avif"
+            alt=""
+            style="height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="service-item position-relative" style="height: 350px">
+          <img
+            class="img-fluid"
+            src="imge/g-4.avif"
+            alt=""
+            style="height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="service-item position-relative" style="height: 350px">
+          <img
+            class="img-fluid"
+            src="imge/g-5.avif"
+            alt=""
+            style="height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="service-item position-relative" style="height: 350px">
+          <img
+            class="img-fluid"
+            src="imge/g-6.avif"
+            alt=""
+            style="height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="service-item position-relative" style="height: 350px">
+          <img
+            class="img-fluid"
+            src="imge/g-7.avif"
+            alt=""
+            style="height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="service-item position-relative" style="height: 350px">
+          <img
+            class="img-fluid"
+            src="imge/g-8.avif"
+            alt=""
+            style="height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="service-item position-relative" style="height: 350px">
+          <img
+            class="img-fluid"
+            src="imge/g-9.avif"
+            alt=""
+            style="height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="service-item position-relative" style="height: 350px">
+          <img
+            class="img-fluid"
+            src="imge/g-10.avif"
+            alt=""
+            style="height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="service-item position-relative" style="height: 350px">
+          <img
+            class="img-fluid"
+            src="imge/g-12.avif"
+            alt=""
+            style="height: 100%; object-fit: cover"
+          />
+        </div>
+      </div>
     </div>
     <!--Gallery end-->
-
-
 
     <!--Services1 start-->
     <!-- <div class="pricing-tab-container service-list" id="femaleServices">
@@ -402,296 +711,380 @@
 
         </ul>
     </div> -->
-    <!--Services1 end-->   
+    <!--Services1 end-->
     <!-- Service Start -->
-    <div class="container-fluid px-0" style="background-color: #dd8acc;">
-        <div class="row mx-0 justify-content-center text-center">
-            <div class="col-lg-6" style="margin-top: 30px;">
-                <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">Our Service</h6>
-                <h1>Hair & Skin Bueaty Services</h1>
-            </div>
+    <div class="container-fluid px-0" style="background-color: #dd8acc">
+      <div class="row mx-0 justify-content-center text-center">
+        <div class="col-lg-6" style="margin-top: 30px">
+          <h6
+            class="d-inline-block bg-light text-primary text-uppercase py-1 px-2"
+          >
+            Our Service
+          </h6>
+          <h1>Hair & Skin Bueaty Services</h1>
         </div>
-        <div class="owl-carousel service-carousel"> 
-            <div class="service-item position-relative">
-                <img class="img-fluid" src="imge/S-1.avif" alt="">
-            
-                <div class="service-text text-center">
-                    <h4 class="text-black font-weight-medium px-3">Hair Treatment</h4>
-                    <p class="text-white px-3 mb-3">
-                        We offers specialized hair services addressing concerns like hair fall, hair loss, and dandruff, utilizing advanced techniques and personalized treatments to promote healthy, vibrant hair. Our dedicated team provides tailored solutions aimed at restoring confidence & vitality to your locks...</p>
-                    <div class="w-100 bg-white text-center p-4">
-                        <a class="btn btn-primary" href="#footer">Visit Now</a>
-                    </div>
-                </div>
+      </div>
+      <div class="owl-carousel service-carousel">
+        <div class="service-item position-relative">
+          <img class="img-fluid" src="imge/S-1.avif" alt="" />
+
+          <div class="service-text text-center">
+            <h4 class="text-black font-weight-medium px-3">Hair Treatment</h4>
+            <p class="text-white px-3 mb-3">
+              We offers specialized hair services addressing concerns like hair
+              fall, hair loss, and dandruff, utilizing advanced techniques and
+              personalized treatments to promote healthy, vibrant hair. Our
+              dedicated team provides tailored solutions aimed at restoring
+              confidence & vitality to your locks...
+            </p>
+            <div class="w-100 bg-white text-center p-4">
+              <a class="btn btn-primary" href="#footer">Visit Now</a>
             </div>
-    
-            
-           
-            <div class="service-item position-relative">
-                <img class="img-fluid" src="imge/s-2.avif" alt="">
-                <div class="service-text text-center">
-                    <h4 class="text-black font-weight-medium px-3">Acne & Pigmentation</h4>
-                    <p class="text-white px-3 mb-3">We provides expert services for acne and pigmentation, employing cutting-edge treatments tailored to your skin's unique needs. Our skilled professionals deliver personalized solutions to address concerns effectively, helping you achieve clear, radiant skin with confidence.
-                    </p>
-                    <div class="w-100 bg-white text-center p-4">
-                        <a class="btn btn-primary" href="#footer">Visit Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="service-item position-relative">
-                <img class="img-fluid" src="imge/s-3.avif" alt="">
-                <div class="service-text text-center">
-                    <h4 class="text-black font-weight-medium px-3">Unwanted Hair</h4>
-                    <p class="text-white px-3 mb-3">
-                        we offers comprehensive unwanted hair removal services, including full-body laser treatments, facial hair reduction, and precision beard shaping. Our advanced techniques ensure efficient and long-lasting results, tailored to your preferences for smooth, groomed skin.</p>
-                    <div class="w-100 bg-white text-center p-4">
-                        <a class="btn btn-primary" href="#footer">Visit Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="service-item position-relative">
-                <img class="img-fluid" src="imge/s-4.avif" alt="">
-                <div class="service-text text-center">
-                    <h4 class="text-black font-weight-medium px-3">Aging&Face Lifting</h4>
-                    <p class="text-white px-3 mb-3">
-                        We specializes in rejuvenating aging skin and providing expert face-lifting treatments to restore youthfulness and vitality. Our advanced procedures and personalized care aim to diminish signs of aging, leaving you with a refreshed, radiant complexion and renewed confidence.</p>
-                    <div class="w-100 bg-white text-center p-4">
-                        <a class="btn btn-primary" href="#footer">Visit Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="service-item position-relative">
-                <img class="img-fluid" src="imge/s-5.avif" alt="">
-                <div class="service-text text-center">
-                    <h4 class="text-black font-weight-medium px-3">Fat reduction</h4>
-                    <p class="text-white px-3 mb-3">
-                        We offers cutting-edge fat reduction services, utilizing innovative techniques to sculpt and contour your body. Our personalized approach targets stubborn fat deposits, helping you achieve a slimmer, more defined physique with natural-looking results.</p>
-                    <div class="w-100 bg-white text-center p-4">
-                        <a class="btn btn-primary" href="#footer">Visit Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="service-item position-relative">
-                <img class="img-fluid" src="imge/s-6.jpg" alt="">
-                <div class="service-text text-center">
-                    <h4 class="text-black font-weight-medium px-3">Body Contouring</h4>
-                    <p class="text-white px-3 mb-3">We specializes in comprehensive body contouring, addressing both upper and lower body concerns, including stretch marks. Our tailored treatments aim to sculpt and refine your physique, enhancing your natural contours for a more confident, rejuvenated appearance.</p>
-                    <div class="w-100 bg-white text-center p-4">
-                        <a class="btn btn-primary" href="#footer">Visit Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="service-item position-relative">
-                <img class="img-fluid" src="imge/s-0.avif" alt="">
-                <div class="service-text text-center">
-                    <h4 class="text-black font-weight-medium px-3">Hairloss Treatment</h4>
-                    <p class="text-white px-3 mb-3">
-                        Hair loss treatment options range from medications to surgical procedures, aiming to address underlying causes and promote regrowth for improved confidence and well-being.</p>
-                    <div class="w-100 bg-white text-center p-4">
-                        <a class="btn btn-primary" href="#footer">Visit Now</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="service-item position-relative">
+          <img class="img-fluid" src="imge/s-2.avif" alt="" />
+          <div class="service-text text-center">
+            <h4 class="text-black font-weight-medium px-3">
+              Acne & Pigmentation
+            </h4>
+            <p class="text-white px-3 mb-3">
+              We provides expert services for acne and pigmentation, employing
+              cutting-edge treatments tailored to your skin's unique needs. Our
+              skilled professionals deliver personalized solutions to address
+              concerns effectively, helping you achieve clear, radiant skin with
+              confidence.
+            </p>
+            <div class="w-100 bg-white text-center p-4">
+              <a class="btn btn-primary" href="#footer">Visit Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="service-item position-relative">
+          <img class="img-fluid" src="imge/s-3.avif" alt="" />
+          <div class="service-text text-center">
+            <h4 class="text-black font-weight-medium px-3">Unwanted Hair</h4>
+            <p class="text-white px-3 mb-3">
+              we offers comprehensive unwanted hair removal services, including
+              full-body laser treatments, facial hair reduction, and precision
+              beard shaping. Our advanced techniques ensure efficient and
+              long-lasting results, tailored to your preferences for smooth,
+              groomed skin.
+            </p>
+            <div class="w-100 bg-white text-center p-4">
+              <a class="btn btn-primary" href="#footer">Visit Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="service-item position-relative">
+          <img class="img-fluid" src="imge/s-4.avif" alt="" />
+          <div class="service-text text-center">
+            <h4 class="text-black font-weight-medium px-3">
+              Aging&Face Lifting
+            </h4>
+            <p class="text-white px-3 mb-3">
+              We specializes in rejuvenating aging skin and providing expert
+              face-lifting treatments to restore youthfulness and vitality. Our
+              advanced procedures and personalized care aim to diminish signs of
+              aging, leaving you with a refreshed, radiant complexion and
+              renewed confidence.
+            </p>
+            <div class="w-100 bg-white text-center p-4">
+              <a class="btn btn-primary" href="#footer">Visit Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="service-item position-relative">
+          <img class="img-fluid" src="imge/s-5.avif" alt="" />
+          <div class="service-text text-center">
+            <h4 class="text-black font-weight-medium px-3">Fat reduction</h4>
+            <p class="text-white px-3 mb-3">
+              We offers cutting-edge fat reduction services, utilizing
+              innovative techniques to sculpt and contour your body. Our
+              personalized approach targets stubborn fat deposits, helping you
+              achieve a slimmer, more defined physique with natural-looking
+              results.
+            </p>
+            <div class="w-100 bg-white text-center p-4">
+              <a class="btn btn-primary" href="#footer">Visit Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="service-item position-relative">
+          <img class="img-fluid" src="imge/s-6.jpg" alt="" />
+          <div class="service-text text-center">
+            <h4 class="text-black font-weight-medium px-3">Body Contouring</h4>
+            <p class="text-white px-3 mb-3">
+              We specializes in comprehensive body contouring, addressing both
+              upper and lower body concerns, including stretch marks. Our
+              tailored treatments aim to sculpt and refine your physique,
+              enhancing your natural contours for a more confident, rejuvenated
+              appearance.
+            </p>
+            <div class="w-100 bg-white text-center p-4">
+              <a class="btn btn-primary" href="#footer">Visit Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="service-item position-relative">
+          <img class="img-fluid" src="imge/s-0.avif" alt="" />
+          <div class="service-text text-center">
+            <h4 class="text-black font-weight-medium px-3">
+              Hairloss Treatment
+            </h4>
+            <p class="text-white px-3 mb-3">
+              Hair loss treatment options range from medications to surgical
+              procedures, aiming to address underlying causes and promote
+              regrowth for improved confidence and well-being.
+            </p>
+            <div class="w-100 bg-white text-center p-4">
+              <a class="btn btn-primary" href="#footer">Visit Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-        
-       <!-- Pricing Start women -->
-       <div class="container-fluid px-0" style="background-color: goldenrod;">
-       <h3 class="text-center p-3">SKIN TREATMENT</h3>
-       <div class="container-fluid bg-pricing">
 
-           <div class="container">
-               <div class="row">
-                   <div class="col-lg-5" style="min-height: 500px;">
-                       <div class="position-relative h-100">
-                           <img class="position-absolute w-100 h-100" src="imge/skin-price.avif" style="object-fit: cover;">
-                       </div>
-                   </div>
-                   <div class="col-lg-7 pt-5 pb-lg-5">
-                       <div class="pricing-text bg-light p-4 p-lg-5 my-lg-5">
-                          
-                               <div class="bg-white">
-                                   <div
-                                       class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
-                                       
-                                       <h5 class="text-primary text-uppercase m-0">Skin & Bueaty</h5>
-                                   </div>
-                                   <div class="p-4">
-                                       <p>TREATMENT AT ELYSIAN AESTHETICS</p>
-                                       <div style="display: flex;">
-                                           <div>
-                                               <p><i class="fa fa-check text-success mr-2"></i>Acne/Pimples</p>
-                                               <p><i class="fa fa-check text-success mr-2"></i>Carbon Facial</p>
-                                               <p><i class="fa fa-check text-success mr-2"></i>Hydrafacial MD
-                                               </p>
-                                               <p><i class="fa fa-check text-success mr-2"></i>Medifacial</p>
-                                               <p><i class="fa fa-check text-success mr-2"></i>Chemical Peels</p>
-                                           </div>
-                                           
-                                       </div>
+    <!-- Pricing Start women -->
+    <div class="container-fluid px-0" style="background-color: goldenrod">
+      <h3 class="text-center p-3">SKIN TREATMENT</h3>
+      <div class="container-fluid bg-pricing">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5" style="min-height: 500px; margin-top: 15px">
+              <div class="position-relative h-100">
+                <img
+                  class="position-absolute w-100 h-100"
+                  src="imge/skin-price.avif"
+                  style="object-fit: cover"
+                />
+              </div>
+            </div>
+            <div class="col-lg-7 pt-5 pb-lg-5">
+              <div class="pricing-text bg-light p-4 p-lg-5 my-lg-5">
+                <div class="bg-white">
+                  <div
+                    class="d-flex align-items-center justify-content-between border-bottom border-primary p-4"
+                  >
+                    <h5 class="text-primary text-uppercase m-0">
+                      Skin & Bueaty
+                    </h5>
+                  </div>
+                  <div class="p-4">
+                    <p>TREATMENT AT ELYSIAN AESTHETICS</p>
+                    <div style="display: flex">
+                      <div>
+                        <p>
+                          <i class="fa fa-check text-success mr-2"></i
+                          >Acne/Pimples
+                        </p>
+                        <p>
+                          <i class="fa fa-check text-success mr-2"></i>Carbon
+                          Facial
+                        </p>
+                        <p>
+                          <i class="fa fa-check text-success mr-2"></i
+                          >Hydrafacial MD
+                        </p>
+                        <p>
+                          <i class="fa fa-check text-success mr-2"></i
+                          >Medifacial
+                        </p>
+                        <p>
+                          <i class="fa fa-check text-success mr-2"></i>Chemical
+                          Peels
+                        </p>
+                      </div>
+                    </div>
 
-                                       <a href="#footer" class="btn btn-primary my-2">Book Now</a>
-                                   </div>
-                               </div>
-                               
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
+                    <a href="#footer" class="btn btn-primary my-2">Book Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-       <!-- Pricing End women -->
+    <!-- Pricing End women -->
 
-       <style>
-           table,
-           th,
-           td {
-               border: 1px solid #f9df7a;
-               text-align: center;
-               font-size: 12px;
-           }
-
-           th {
-               color: #02445f;
-           }
-
-           @media(max-width:400px) {
-
-               table,
-               th,
-               td {
-
-                   font-size: 8px;
-               }
-           }
-       </style>
-       <!-- Pricing Start men -->
-       <div class="container-fluid px-0" style="background-color: green;">
-       <h2 class="text-center p-3">HAIR TREATMENT</h2>
-       <div class="container-fluid bg-pricing" style="background: url('./imge/landingapgemal1.jpg');margin-top: 10px ;background-repeat: no-repeat;">
-
-           <div class="container">
-               <div class="row">
-                   <div class="col-lg-5" style="min-height: 500px;">
-                       <div class="position-relative h-100">
-                           <img class="position-absolute w-100 h-100" src="imge/hair-treat.jpg"
-                               style="object-fit: cover;">
-                       </div>
-                   </div>
-                   <div class="col-lg-7 pt-5 pb-lg-5">
-                       <div class="pricing-text bg-light p-4 p-lg-5 my-lg-5">
-                           <!-- <div class="owl-carousel pricing-carousel"> -->
-                                
-
-                               <div class="bg-white">
-                                <div
-                                    class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
-                                    
-                                    <h5 class="text-primary text-uppercase m-0">Hair</h5>
-                                </div>
-                                <div class="p-4">
-                                    <p>TREATMENT AT ELYSIAN AESTHETICS</p>
-                                    <div style="display: flex;">
-                                        <div>
-                                            <p><i class="fa fa-check text-success mr-2"></i>GFC</p>
-                                            <p><i class="fa fa-check text-success mr-2"></i>Derma Pen World 4</p>
-                                            <p><i class="fa fa-check text-success mr-2"></i>Mesotherapy
-                                            </p>
-                                            <p><i class="fa fa-check text-success mr-2"></i>Hair Transplant</p>
-                                            <p><i class="fa fa-check text-success mr-2"></i>Hair Growth Booster</p>
-                                        </div>
-                                       
-                                    </div>
-
-                                    <a href="#footer" class="btn btn-primary my-2">Book Now</a>
-                                </div>
-                            </div>
-                               
-                           <!-- </div> -->
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-    </div>
-   <!-- Pricing End men-->
     <style>
-        .services-btn {
-            padding: 10px;
+      table,
+      th,
+      td {
+        border: 1px solid #f9df7a;
+        text-align: center;
+        font-size: 12px;
+      }
 
-        }
+      th {
+        color: #02445f;
+      }
 
-        .services-btn a {
-            text-decoration: none;
+      @media (max-width: 400px) {
+        table,
+        th,
+        td {
+          font-size: 8px;
         }
-
-        .services-btn a:hover {
-            text-decoration: underline;
-            color: #f9df7a;
-        }
+      }
     </style>
-    <div class="services-btn border-bottom" style="background-color:rgb(236, 9, 9);">
-        <a href="service.html">
-            <h3 class="text-center" style="color:#b78a42;!important">More Services - >>></h3>
-        </a>
+    <!-- Pricing Start men -->
+    <div
+      class="container-fluid px-0"
+      style="background-color: rgb(81, 182, 81)"
+    >
+      <h2 class="text-center p-3">HAIR TREATMENT</h2>
+      <div
+        class="container-fluid bg-pricing"
+        style="
+          background: url('./imge/landingapgemal1.jpg');
+          margin-top: 10px;
+          background-repeat: no-repeat;
+        "
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5" style="min-height: 500px; margin-top: 15px">
+              <div class="position-relative h-100">
+                <img
+                  class="position-absolute w-100 h-100"
+                  src="imge/hair-treat.jpg"
+                  style="object-fit: cover"
+                />
+              </div>
+            </div>
+            <div class="col-lg-7 pt-5 pb-lg-5">
+              <div class="pricing-text bg-light p-4 p-lg-5 my-lg-5">
+                <!-- <div class="owl-carousel pricing-carousel"> -->
+
+                <div class="bg-white">
+                  <div
+                    class="d-flex align-items-center justify-content-between border-bottom border-primary p-4"
+                  >
+                    <h5 class="text-primary text-uppercase m-0">Hair</h5>
+                  </div>
+                  <div class="p-4">
+                    <p>TREATMENT AT ELYSIAN AESTHETICS</p>
+                    <div style="display: flex">
+                      <div>
+                        <p><i class="fa fa-check text-success mr-2"></i>GFC</p>
+                        <p>
+                          <i class="fa fa-check text-success mr-2"></i>Derma Pen
+                          World 4
+                        </p>
+                        <p>
+                          <i class="fa fa-check text-success mr-2"></i
+                          >Mesotherapy
+                        </p>
+                        <p>
+                          <i class="fa fa-check text-success mr-2"></i>Hair
+                          Transplant
+                        </p>
+                        <p>
+                          <i class="fa fa-check text-success mr-2"></i>Hair
+                          Growth Booster
+                        </p>
+                      </div>
+                    </div>
+
+                    <a href="#footer" class="btn btn-primary my-2">Book Now</a>
+                  </div>
+                </div>
+
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+    <!-- Pricing End men-->
+    <style>
+      .services-btn {
+        padding: 10px;
+      }
+
+      .services-btn a {
+        text-decoration: none;
+      }
+
+      .services-btn a:hover {
+        text-decoration: underline;
+        color: #f9df7a;
+      }
+    </style>
+    <div
+      class="services-btn border-bottom"
+      style="background-color: rgb(245, 9, 9)"
+    >
+      <a href="service.html">
+        <h3 class="text-center" style="color:#b78a42;!important">
+          More Services - >>>
+        </h3>
+      </a>
+    </div>
 
     <!-- Team Start -->
-    <div class="container-fluid py-2 border-primary1" style="background-color: #f9df7a;">
-        <div class="container pt-5 g">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-6">
-                    <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">Clinic Specialist</h6>
-                    <h1 class="mb-5">Our Specialist</h1>
+    <div
+      class="container-fluid py-2 border-primary1"
+      style="background-color: #221832"
+    >
+      <div class="container pt-5 g">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h6
+              class="d-inline-block bg-light text-primary text-uppercase py-1 px-2"
+            >
+              Clinic Specialist
+            </h6>
+            <h1 class="mb-5">Our Specialist</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="team position-relative overflow-hidden mb-5">
+              <img class="img-fluid" src="imge/Profile-111.jpg" alt="" />
+              <div class="position-relative text-center">
+                <div class="team-text bg-primary text-white">
+                  <h5 class="text-white">Dr. Preeti</h5>
+                  <p class="m-0">Dermatologist</p>
                 </div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="team position-relative overflow-hidden mb-5">
-                        <img class="img-fluid" src="imge/Profile-111.jpg" alt="">
-                        <div class="position-relative text-center">
-                            <div class="team-text bg-primary text-white">
-                                <h5 class="text-white ">Dr. Preeti</h5>
-                                <p class="m-0"> Dermatologist </p>
-                            </div>
-                           
-                        </div>
-                    </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="team position-relative overflow-hidden mb-5">
+              <img class="img-fluid" src="imge/Profile-121.jpg" alt="" />
+              <div class="position-relative text-center">
+                <div class="team-text bg-primary text-white">
+                  <h5 class="text-white">Dr2</h5>
+                  <p class="m-0">Trichologist</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team position-relative overflow-hidden mb-5">
-                        <img class="img-fluid" src="imge/Profile-121.jpg" alt="">
-                        <div class="position-relative text-center">
-                            <div class="team-text bg-primary text-white">
-                                <h5 class="text-white ">Dr2</h5>
-                                <p class="m-0"> Trichologist</p>
-                            </div>
-                            
-                        </div>
-                    </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="team position-relative overflow-hidden mb-5">
+              <img class="img-fluid" src="imge/Profile-131.jpg" alt="" />
+              <div class="position-relative text-center">
+                <div class="team-text bg-primary text-white">
+                  <h5 class="text-white text-uppercase">JOSEPH</h5>
+                  <p class="m-0">Dermatologist</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team position-relative overflow-hidden mb-5">
-                        <img class="img-fluid" src="imge/Profile-131.jpg" alt="">
-                        <div class="position-relative text-center">
-                            <div class="team-text bg-primary text-white">
-                                <h5 class="text-white text-uppercase">JOSEPH</h5>
-                                <p class="m-0">Dermatologist</p>
-                            </div>
-                           
-                        </div>
-                    </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="team position-relative overflow-hidden mb-5">
+              <img class="img-fluid" src="imge/Profile-141.jpg" alt="" />
+              <div class="position-relative text-center">
+                <div class="team-text bg-primary text-white">
+                  <h5 class="text-white text-uppercase">PRASAD</h5>
+                  <p class="m-0">Trichologist</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team position-relative overflow-hidden mb-5">
-                        <img class="img-fluid" src="imge/Profile-141.jpg" alt="">
-                        <div class="position-relative text-center">
-                            <div class="team-text bg-primary text-white">
-                                <h5 class="text-white text-uppercase">PRASAD</h5>
-                                <p class="m-0"> Trichologist</p>
-                            </div>
-                            <!-- <div class="team-social bg-dark text-center">
+                <!-- <div class="team-social bg-dark text-center">
                                 <a class="btn btn-outline-primary btn-square mr-2" href="#"><i
                                         class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square mr-2" href="#"><i
@@ -701,231 +1094,343 @@
                                 <a class="btn btn-outline-primary btn-square" href="#"><i
                                         class="fab fa-instagram"></i></a>
                             </div> -->
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <style>
-        .g img{
-            margin: 20px;
-        }
+      .g img {
+        margin: 20px;
+      }
     </style>
-    <!-- Team End -->  
+    <!-- Team End -->
     <!-- Testimonial Start -->
-    <div class="container-fluid py-2" style="background-color: green;">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-6 pb-5 pb-lg-0">
-                    <!-- <div class="layout21_image-wrapper">
+    <div class="container-fluid py-2" style="background-color: green">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6 pb-5 pb-lg-0">
+            <!-- <div class="layout21_image-wrapper">
                         <video style="width: 100%; height: 100%; object-fit: cover" autoplay="" loop="" muted=""
                             src="./img/testimonial.jpg"></video>
                     </div> -->
-                    <img class="img-fluid w-100" src="imge/happyclient.avif" alt="">
+            <img class="img-fluid w-100" src="imge/happyclient.avif" alt="" />
+          </div>
+          <div class="col-lg-6 pl-3">
+            <h6
+              class="d-inline-block text-primary text-uppercase bg-light py-1 px-2"
+            >
+              Testimonial
+            </h6>
+            <h1 class="mb-4">What Our Clients Say!</h1>
+            <div class="owl-carousel testimonial-carousel">
+              <div class="position-relative">
+                <i
+                  class="fa fa-3x text-primary position-absolute"
+                  style="top: -6px; right: 0"
+                ></i>
+                <div class="d-flex align-items-center mb-3">
+                  <img
+                    class="img-fluid rounded-circle"
+                    src="imge/roja.jpg"
+                    style="width: 60px; height: 60px; object-fit: scale-down"
+                    alt=""
+                  />
+                  <div class="ml-3">
+                    <h6 class="text-uppercase">Roja N</h6>
+                    <span>Profession</span>
+                  </div>
                 </div>
-                <div class="col-lg-6 pl-3">
-                    <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">Testimonial</h6>
-                    <h1 class="mb-4">What Our Clients Say!</h1>
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="position-relative">
-                            <i class="fa fa-3x  text-primary position-absolute"
-                                style="top: -6px; right: 0;"></i>
-                            <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid rounded-circle" src="img/gallery-4.jpg"
-                                    style="width: 60px; height: 60px;object-fit: scale-down;" alt="">
-                                <div class="ml-3">
-                                    <h6 class="text-uppercase">David N</h6>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                            <p class="m-0 text-black pl-3">"Elysian Aesthetic Clinic not only transformed my appearance but also boosted my confidence, leaving me thrilled with the impeccable results."
-                            </p>
-                        </div>
-                        <div class="position-relative">
-                            <i class="fa fa-3x  text-primary position-absolute"
-                                style="top: -6px; right: 0;"></i>
-                            <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg"
-                                    style="width: 60px; height: 60px;" alt="">
-                                <div class="ml-3">
-                                    <h6 class="text-uppercase">Emily R</h6>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                            <p class="m-0 text-black"> "At Elysian Aesthetic Clinic, I found not just beauty treatments, but genuine care that surpassed my expectations, leaving me truly delighted with my results."
-                            </p>
-                        </div>
-                        <div class="position-relative">
-                            <i class="fa fa-3x  text-primary position-absolute"
-                                style="top: -6px; right: 0;"></i>
-                            <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg"
-                                    style="width: 60px; height: 60px;" alt="">
-                                <div class="ml-3">
-                                    <h6 class="text-uppercase">Alex M</h6>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                            <p class="m-0 text-black">"Choosing Elysian Aesthetic Clinic was the best decision; their expertise and personalized approach made me feel confident and utterly satisfied with my transformation."
-                            </p>
-                        </div>
-                        <div class="position-relative">
-                            <i class="fa fa-3x  text-primary position-absolute"
-                                style="top: -6px; right: 0;"></i>
-                            <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid rounded-circle" src="img/gallery-1.jpg"
-                                    style="width: 60px; height: 60px;" alt="">
-                                <div class="ml-3">
-                                    <h6 class="text-uppercase">D Ravi</h6>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                            <p class="m-0 text-black">"Elysian Aesthetic Clinic has truly exceeded my expectations, leaving me not only thrilled with my results but also grateful for the exceptional care and attention I received throughout my journey."
-                            </p>
-                        </div>
-                    </div>
+                <p class="m-0 text-black pl-3">
+                  "Elysian Aesthetic Clinic not only transformed my appearance
+                  but also boosted my confidence, leaving me thrilled with the
+                  impeccable results."
+                </p>
+              </div>
+              <div class="position-relative">
+                <i
+                  class="fa fa-3x text-primary position-absolute"
+                  style="top: -6px; right: 0"
+                ></i>
+                <div class="d-flex align-items-center mb-3">
+                  <img
+                    class="img-fluid rounded-circle"
+                    src="imge/testimonial-2.jpg"
+                    style="width: 60px; height: 60px"
+                    alt=""
+                  />
+                  <div class="ml-3">
+                    <h6 class="text-uppercase">Emily R</h6>
+                    <span>Profession</span>
+                  </div>
                 </div>
+                <p class="m-0 text-black">
+                  "At Elysian Aesthetic Clinic, I found not just beauty
+                  treatments, but genuine care that surpassed my expectations,
+                  leaving me truly delighted with my results."
+                </p>
+              </div>
+              <div class="position-relative">
+                <i
+                  class="fa fa-3x text-primary position-absolute"
+                  style="top: -6px; right: 0"
+                ></i>
+                <div class="d-flex align-items-center mb-3">
+                  <img
+                    class="img-fluid rounded-circle"
+                    src="imge/testimonial-3.jpg"
+                    style="width: 60px; height: 60px"
+                    alt=""
+                  />
+                  <div class="ml-3">
+                    <h6 class="text-uppercase">Alex M</h6>
+                    <span>Profession</span>
+                  </div>
+                </div>
+                <p class="m-0 text-black">
+                  "Choosing Elysian Aesthetic Clinic was the best decision;
+                  their expertise and personalized approach made me feel
+                  confident and utterly satisfied with my transformation."
+                </p>
+              </div>
+              <div class="position-relative">
+                <i
+                  class="fa fa-3x text-primary position-absolute"
+                  style="top: -6px; right: 0"
+                ></i>
+                <div class="d-flex align-items-center mb-3">
+                  <img
+                    class="img-fluid rounded-circle"
+                    src="imge/ravi.jpg"
+                    style="width: 60px; height: 60px"
+                    alt=""
+                  />
+                  <div class="ml-3">
+                    <h6 class="text-uppercase">Ramya Shetty</h6>
+                    <span>Profession</span>
+                  </div>
+                </div>
+                <p class="m-0 text-black">
+                  "Elysian Aesthetic Clinic has truly exceeded my expectations,
+                  leaving me not only thrilled with my results but also grateful
+                  for the exceptional care and attention I received throughout
+                  my journey."
+                </p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Testimonial End -->
     <!-- Open Hours Start -->
-    <div class="container-fluid py-2" style="background-color: #613030;">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-6" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="imge/opening.avif" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 pt-5 pb-lg-5">
-                    <div class="hours-text bg-light p-4 p-lg-5 my-lg-5">
-                        <h6 class="d-inline-block text-white text-uppercase bg-primary py-1 px-2">Open Hours</h6>
-                        <h1 class="mb-4">Clinic Timings</h1>
-                        <p>
-                            "At Elysian Aesthetic Clinic, our overarching goal is to empower individuals by enhancing both their skin and hair health. Through cutting-edge treatments and personalized care, we strive to achieve not just external beauty, but inner confidence and well-being. Our mission is to provide comprehensive solutions that rejuvenate and restore, ensuring every client leaves feeling radiant and revitalized. With a holistic approach, we aim to redefine beauty standards, one satisfied client at a time."</p>
-                        <ul class="list-inline">
-                            <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Monday : 10:00 AM -
-                                9:00 PM</li>
-                            <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Tuesday : 10:00 AM -
-                                9:00
-                                PM</li>
-                            <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Thursday : 10:00 AM -
-                                9:00 PM</li>
-                            <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Friday : 10:00 AM -
-                                9:00
-                                PM</li>
-                            <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Saturday : 10:00 AM -
-                                9:00 PM</li>
-                            <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Sunday : Holiday
-                                </li>
-                        </ul>
-                        <a href="#appointment" class="btn btn-primary mt-2">Book Now</a>
-                    </div>
-                </div>
+    <div class="container-fluid py-2" style="background-color: #613030">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6" style="min-height: 500px">
+            <div class="position-relative h-100">
+              <img
+                class="position-absolute w-100 h-100"
+                src="imge/opening.avif"
+                style="object-fit: cover"
+              />
             </div>
+          </div>
+          <div class="col-lg-6 pt-5 pb-lg-5">
+            <div class="hours-text bg-light p-4 p-lg-5 my-lg-5">
+              <h6
+                class="d-inline-block text-white text-uppercase bg-primary py-1 px-2"
+              >
+                Open Hours
+              </h6>
+              <h1 class="mb-4">Clinic Timings</h1>
+              <p>
+                "At Elysian Aesthetic Clinic, our overarching goal is to empower
+                individuals by enhancing both their skin and hair health.
+                Through cutting-edge treatments and personalized care, we strive
+                to achieve not just external beauty, but inner confidence and
+                well-being. Our mission is to provide comprehensive solutions
+                that rejuvenate and restore, ensuring every client leaves
+                feeling radiant and revitalized. With a holistic approach, we
+                aim to redefine beauty standards, one satisfied client at a
+                time."
+              </p>
+              <ul class="list-inline">
+                <li class="h6 py-1">
+                  <i class="far fa-circle text-primary mr-3"></i>Monday : 10:00
+                  AM - 9:00 PM
+                </li>
+                <li class="h6 py-1">
+                  <i class="far fa-circle text-primary mr-3"></i>Tuesday : 10:00
+                  AM - 9:00 PM
+                </li>
+                <li class="h6 py-1">
+                  <i class="far fa-circle text-primary mr-3"></i>Thursday :
+                  10:00 AM - 9:00 PM
+                </li>
+                <li class="h6 py-1">
+                  <i class="far fa-circle text-primary mr-3"></i>Friday : 10:00
+                  AM - 9:00 PM
+                </li>
+                <li class="h6 py-1">
+                  <i class="far fa-circle text-primary mr-3"></i>Saturday :
+                  10:00 AM - 9:00 PM
+                </li>
+                <li class="h6 py-1">
+                  <i class="far fa-circle text-primary mr-3"></i>Sunday :
+                  Holiday
+                </li>
+              </ul>
+              <a href="#appointment" class="btn btn-primary mt-2">Book Now</a>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Open Hours End -->
 
-
     <!-- Service Start -->
     <div class="container-fluid px-0" id="appointment">
-        <div class="row justify-content-center bg-appointment mx-0">
-            <div class="col-lg-6 py-2">
-                <div class="p-5 my-5">
-                    <h1 class="text-center mb-2" style="color: white;">Make an Appointment</h1>
-                    <form id="bookingForm" class="bookingForm">
-                        <div class="form-row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control bg-transparent p-4 fullName"
-                                        placeholder="Your Name" id="fullName" required="required" />
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input id="mail" type="email" class="form-control bg-transparent p-4 mail"
-                                        placeholder="Your Email" required="required" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <div class="date" data-target-input="nearest">
-                                        <input id="date" type="date"
-                                            class="form-control bg-transparent p-4 datetimepicker-input date"
-                                            placeholder="Select Date" data-toggle="datetimepicker" />
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <div class="time" data-target-input="nearest">
-                                        <input id="time" type="time"
-                                            class="form-control bg-transparent p-4 datetimepicker-input time"
-                                            placeholder="Select Time" data-toggle="datetimepicker" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input id="message" type="text" class="form-control bg-transparent p-4 message"
-                                        placeholder="Message" required="required" />
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-
-                                    <select id="service gender" class="form-control bg-transparent"
-                                        style="color: #f9df7a;" name="gender" onchange="updateSubOptions()">
-
-                                        <option value="Cutting" selected style="background-color: #02445f;">Choose Category
-                                        </option>
-                                        <option value="Spa" style="background-color: #02445f;">Skin</option>
-                                        <option value="Beauty" style="background-color: #02445f;">Hair</option>
-                                        <option value="Massage" style="background-color: #02445f;">Bueaty</option>
-
-                                    </select>
-
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-
-                            <div class="col-sm-12">
-                                <button class="btn btn-primary btn-block" type="submit" style="height: 47px;">Book
-                                    Appointment</button>
-                            </div>
-                        </div>
-                    </form>
+      <div class="row justify-content-center bg-appointment mx-0">
+        <div class="col-lg-6 py-2">
+          <div class="p-5 my-5">
+            <h1 class="text-center mb-2" style="color: white">
+              Make an Appointment
+            </h1>
+            <form id="bookingForm" class="bookingForm">
+              <div class="form-row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control bg-transparent p-4 fullName"
+                      placeholder="Your Name"
+                      id="fullName"
+                      required="required"
+                    />
+                  </div>
                 </div>
-            </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      id="mail"
+                      type="email"
+                      class="form-control bg-transparent p-4 mail"
+                      placeholder="Your Email"
+                      required="required"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <div class="date" data-target-input="nearest">
+                      <input
+                        id="date"
+                        type="date"
+                        class="form-control bg-transparent p-4 datetimepicker-input date"
+                        placeholder="Select Date"
+                        data-toggle="datetimepicker"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <div class="time" data-target-input="nearest">
+                      <input
+                        id="time"
+                        type="time"
+                        class="form-control bg-transparent p-4 datetimepicker-input time"
+                        placeholder="Select Time"
+                        data-toggle="datetimepicker"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      id="message"
+                      type="text"
+                      class="form-control bg-transparent p-4 message"
+                      placeholder="Message"
+                      required="required"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <select
+                      id="service gender"
+                      class="form-control bg-transparent"
+                      style="color: #f9df7a"
+                      name="gender"
+                      onchange="updateSubOptions()"
+                    >
+                      <option
+                        value="Cutting"
+                        selected
+                        style="background-color: #02445f"
+                      >
+                        Choose Category
+                      </option>
+                      <option value="Spa" style="background-color: #02445f">
+                        Skin
+                      </option>
+                      <option value="Beauty" style="background-color: #02445f">
+                        Hair
+                      </option>
+                      <option value="Massage" style="background-color: #02445f">
+                        Bueaty
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-sm-12">
+                  <button
+                    class="btn btn-primary btn-block"
+                    type="submit"
+                    style="height: 47px"
+                  >
+                    Book Appointment
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
-
-
 
     <!--Map-->
 
     <div class="map container-fluid">
-        <h2 class="text-center p-2">Map Directions</h2>
-        <div class="d-flex align-items-center justify-content-center">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.7832366980674!2d78.35039907377221!3d17.47008600042018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93a1df991fbf%3A0x755e78ec4c68cdd3!2sElysian%20Aesthetics!5e0!3m2!1sen!2sin!4v1707229850806!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+      <h2 class="text-center p-2">Map Directions</h2>
+      <div class="d-flex align-items-center justify-content-center">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.7832366980674!2d78.35039907377221!3d17.47008600042018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93a1df991fbf%3A0x755e78ec4c68cdd3!2sElysian%20Aesthetics!5e0!3m2!1sen!2sin!4v1707229850806!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </div>
     <style>
-        .map iframe {
-            width: 100%;
-            height: 450px;
-            border: 0;
-        }
+      .map iframe {
+        width: 100%;
+        height: 450px;
+        border: 0;
+      }
     </style>
     <!--Map-->
 
@@ -978,108 +1483,164 @@
         }
     </script> -->
     <!-- Footer Start -->
-    <div class="footer container-fluid position-relative py-2 pl-4" style="margin-top: 10px;background: black;" id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 pr-lg-5 mb-5">
-                    <a href="#" class="navbar-brand">
-                        <img src="./imge/logo.png" alt="" style="width:160px;padding: 10px;" />
-                    </a>
-                    <p></p>
-                    <p><i class="fa fa-map-marker-alt mr-2"></i> 4-1382, Raja Rajeswara, above Apollo Pharmacy, opposite to Hyundai Service Center, Raja Rajeshwara Nagar, Kondapur, Telangana 500084</p>
-                    <p><i class="fa fa-phone-alt mr-2"></i> 073866 39379</p>
-                    <p style="word-break: break-all;"><i
-                            class="fa fa-envelope mr-2"></i>elysianaestheticshyd@gmail.com</p>
-                    <div class="d-flex justify-content-start mt-4">
-                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="tel:+91 073866 39379"><i
-                                class="fas fa-phone-alt" style="color:#02445f !important;"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square mr-2"
-                             href="https://www.google.com/maps/place/Elysian+Aesthetics/@17.470086,78.3503991,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93a1df991fbf:0x755e78ec4c68cdd3!8m2!3d17.4700809!4d78.352974!16s%2Fg%2F11k3xt4156?authuser=0&entry=ttu">
-                            <i class="fas fa-map-marker-alt" style="color:#02445f !important;"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square mr-2 "
-                        href="https://www.facebook.com/ElysianAestheticshyd/"><i
-                                class="fab fa-facebook-f" style="color:#02445f !important;"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square"
-                        href="https://www.instagram.com/explore/locations/111328871823585/elysian-aesthetics/"><i class="fab fa-instagram"
-                                style="color:#02445f !important;"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-6 pl-lg-5">
-                    <div class="row">
-                        <div class="col-sm-6 mb-5">
-                            <h5 class="text-white text-uppercase mb-4">Quick Links</h5>
-                            <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white-50 mb-2" href="index.html"><i
-                                        class="fa fa-angle-right mr-2"></i>Home</a>
-                                <a class="text-white-50 mb-2" href="about.html"><i
-                                        class="fa fa-angle-right mr-2"></i>About</a>
-                                <a class="text-white-50 mb-2" href="service.html"><i
-                                        class="fa fa-angle-right mr-2"></i>Our
-                                    Services
-                                </a>
-                                <a class="text-white-50 mb-2" href="gallery.html"><i
-                                        class="fa fa-angle-right mr-2"></i>Gallery</a>
-                                <a class="text-white-50" href="contact.html"><i
-                                        class="fa fa-angle-right mr-2"></i>Contact Us</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mb-5">
-                            <h5 class="text-white text-uppercase mb-4">Our Services</h5>
-                            <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white-50 mb-2" href="service.html"><i
-                                        class="fa fa-angle-right mr-2"></i>All Skin Treatments</a>
-                                <a class="text-white-50 mb-2" href="service.html"><i
-                                        class="fa fa-angle-right mr-2"></i>Hair Treatment</a>
-                                <a class="text-white-50 mb-2" href="service.html"><i
-                                        class="fa fa-angle-right mr-2"></i>Bueaty Care</a>
-                                <a class="text-white-50 mb-2" href="service.html"><i
-                                        class="fa fa-angle-right mr-2"></i>Skin
-                                    Care</a>
-                                <!-- <a class="text-white-50" href="service.html"><i class="fa fa-angle-right mr-2"></i></a> -->
-                            </div>
-                        </div>
-                        <div class="col-sm-12 mb-5 pt-3">
-                            <h3>Elysian Aesthetic Clinic</h3>
-                            <p><span class="star">&#9733;</span>If you want to achieve beautiful skin, stronger hair, and enhanced overall appearance?</p>
-                            
-                        </div>
-                        <div class="form-row">
-                            <a href="contact.html">
-
-                            <div class="col-sm-12">
-                                <button class="btn btn-primary btn-block" type="submit" style="height: 47px;">Book
-                                    Appointment</button>
-                            </div>
-                        </a>
-                        </div>
-                    </div>
-                </div>
+    <div
+      class="footer container-fluid position-relative py-2 pl-4"
+      style="margin-top: 10px; background: black"
+      id="footer"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pr-lg-5 mb-5">
+            <a href="#" class="navbar-brand">
+              <img
+                src="./imge/logo.png"
+                alt=""
+                style="width: 160px; padding: 10px"
+              />
+            </a>
+            <p></p>
+            <p>
+              <i class="fa fa-map-marker-alt mr-2"></i> 4-1382, Raja Rajeswara,
+              above Apollo Pharmacy, opposite to Hyundai Service Center, Raja
+              Rajeshwara Nagar, Kondapur, Telangana 500084
+            </p>
+            <p><i class="fa fa-phone-alt mr-2"></i> 073866 39379</p>
+            <p style="word-break: break-all">
+              <i class="fa fa-envelope mr-2"></i>elysianaestheticshyd@gmail.com
+            </p>
+            <div class="d-flex justify-content-start mt-4">
+              <a
+                class="btn btn-lg btn-primary btn-lg-square mr-2"
+                href="tel:+91 073866 39379"
+                ><i
+                  class="fas fa-phone-alt"
+                  style="color: #02445f !important"
+                ></i
+              ></a>
+              <a
+                class="btn btn-lg btn-primary btn-lg-square mr-2"
+                href="https://www.google.com/maps/place/Elysian+Aesthetics/@17.470086,78.3503991,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93a1df991fbf:0x755e78ec4c68cdd3!8m2!3d17.4700809!4d78.352974!16s%2Fg%2F11k3xt4156?authuser=0&entry=ttu"
+              >
+                <i
+                  class="fas fa-map-marker-alt"
+                  style="color: #02445f !important"
+                ></i
+              ></a>
+              <a
+                class="btn btn-lg btn-primary btn-lg-square mr-2"
+                href="https://www.facebook.com/ElysianAestheticshyd/"
+                ><i
+                  class="fab fa-facebook-f"
+                  style="color: #02445f !important"
+                ></i
+              ></a>
+              <a
+                class="btn btn-lg btn-primary btn-lg-square"
+                href="https://www.instagram.com/explore/locations/111328871823585/elysian-aesthetics/"
+                ><i
+                  class="fab fa-instagram"
+                  style="color: #02445f !important"
+                ></i
+              ></a>
             </div>
+          </div>
+          <div class="col-lg-6 pl-lg-5">
+            <div class="row">
+              <div class="col-sm-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4">Quick Links</h5>
+                <div class="d-flex flex-column justify-content-start">
+                  <a class="text-white-50 mb-2" href="index.html"
+                    ><i class="fa fa-angle-right mr-2"></i>Home</a
+                  >
+                  <a class="text-white-50 mb-2" href="about.html"
+                    ><i class="fa fa-angle-right mr-2"></i>About</a
+                  >
+                  <a class="text-white-50 mb-2" href="service.html"
+                    ><i class="fa fa-angle-right mr-2"></i>Our Services
+                  </a>
+                  <a class="text-white-50 mb-2" href="gallery.html"
+                    ><i class="fa fa-angle-right mr-2"></i>Gallery</a
+                  >
+                  <a class="text-white-50" href="contact.html"
+                    ><i class="fa fa-angle-right mr-2"></i>Contact Us</a
+                  >
+                </div>
+              </div>
+              <div class="col-sm-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4">Our Services</h5>
+                <div class="d-flex flex-column justify-content-start">
+                  <a class="text-white-50 mb-2" href="service.html"
+                    ><i class="fa fa-angle-right mr-2"></i>All Skin
+                    Treatments</a
+                  >
+                  <a class="text-white-50 mb-2" href="service.html"
+                    ><i class="fa fa-angle-right mr-2"></i>Hair Treatment</a
+                  >
+                  <a class="text-white-50 mb-2" href="service.html"
+                    ><i class="fa fa-angle-right mr-2"></i>Bueaty Care</a
+                  >
+                  <a class="text-white-50 mb-2" href="service.html"
+                    ><i class="fa fa-angle-right mr-2"></i>Skin Care</a
+                  >
+                  <!-- <a class="text-white-50" href="service.html"><i class="fa fa-angle-right mr-2"></i></a> -->
+                </div>
+              </div>
+              <div class="col-sm-12 mb-5 pt-3">
+                <h3>Elysian Aesthetic Clinic</h3>
+                <p>
+                  <span class="star">&#9733;</span>If you want to achieve
+                  beautiful skin, stronger hair, and enhanced overall
+                  appearance?
+                </p>
+              </div>
+              <div class="form-row">
+                <a href="contact.html">
+                  <div class="col-sm-12">
+                    <button
+                      class="btn btn-primary btn-block"
+                      type="submit"
+                      style="height: 47px"
+                    >
+                      Book Appointment
+                    </button>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="container-fluid text-light border-top py-4" style="border-color:#b17b34  !important; background: black;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                    <p class="m-0 text-white">&copy; <a href="#" style="color:#b17b34">ELYSIAN AESTHETIC CLINIC</a>. All
-                        Rights
-                        Reserved.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-right">
-                    <p class="m-0 text-white">Designed by <a href="https://htmlcodex.com" style="color:#b17b34">The
-                            Patterns Company</a>
-                    </p>
-                </div>
-            </div>
+    <div
+      class="container-fluid text-light border-top py-4"
+      style="border-color: #b17b34 !important; background: black"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+            <p class="m-0 text-white">
+              &copy;
+              <a href="#" style="color: #b17b34">ELYSIAN AESTHETIC CLINIC</a>.
+              All Rights Reserved.
+            </p>
+          </div>
+          <div class="col-md-6 text-center text-md-right">
+            <p class="m-0 text-white">
+              Designed by
+              <a href="https://htmlcodex.com" style="color: #b17b34"
+                >The Patterns Company</a
+              >
+            </p>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"
-            style="color:#02445f !important;"></i></a>
-
+    <a href="#" class="btn btn-lg btn-primary back-to-top"
+      ><i class="fa fa-angle-double-up" style="color: #02445f !important"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -1113,104 +1674,99 @@
     </script> -->
     <!--End of Tawk.to Script-->
     <script>
-        //book appointment
+      //book appointment
 
-        document
-            .getElementById("bookingForm")
-            .addEventListener("submit", function (event) {
-                event.preventDefault();
+      document
+        .getElementById("bookingForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
 
-                var fullName = document.getElementById("fullName").value;
-                var email = document.getElementById("mail").value;
-                var date = document.getElementById("date").value;
-                var time = document.getElementById("time").value;
-                var message = document.getElementById("message").value;
-                var service = document.getElementById("service").value;
+          var fullName = document.getElementById("fullName").value;
+          var email = document.getElementById("mail").value;
+          var date = document.getElementById("date").value;
+          var time = document.getElementById("time").value;
+          var message = document.getElementById("message").value;
+          var service = document.getElementById("service").value;
 
+          // debugger
 
-                // debugger
+          // if (!fullName) {
+          //     showError(document.getElementById("name"), "Please enter your name.");
+          //     // return;
+          // }
 
-                // if (!fullName) {
-                //     showError(document.getElementById("name"), "Please enter your name.");
-                //     // return;
-                // }
+          // if (!email) {
+          //     showError(document.getElementById("email"), "Please enter your email.");
+          //     // return;
+          // }
 
-                // if (!email) {
-                //     showError(document.getElementById("email"), "Please enter your email.");
-                //     // return;
-                // }
+          // if (!subject) {
+          //     showError(document.getElementById("subject"), "Please enter a subject.");
+          //     // return;
+          // }
 
-                // if (!subject) {
-                //     showError(document.getElementById("subject"), "Please enter a subject.");
-                //     // return;
-                // }
+          // if (!message) {
+          //     showError(document.getElementById("message"), "Please enter your message.");
+          //     // return;
+          // }
+          var contact = "+9173866 39379";
 
-                // if (!message) {
-                //     showError(document.getElementById("message"), "Please enter your message.");
-                //     // return;
-                // }
-                var contact = "+9173866 39379";
+          var encodedMessage = encodeURIComponent(
+            "Name: " +
+              fullName +
+              "\n" +
+              "Email: " +
+              email +
+              "\n" +
+              "Date: " +
+              date +
+              "\n" +
+              "Time: " +
+              time +
+              "\n" +
+              "Service" +
+              "\n" +
+              service +
+              "\n" +
+              "Message: " +
+              message
+          );
 
-                var encodedMessage = encodeURIComponent(
-                    "Name: " +
-                    fullName +
-                    "\n" +
-                    "Email: " +
-                    email +
-                    "\n" +
-                    "Date: " +
-                    date +
-                    "\n" +
-                    "Time: " +
-                    time +
-                    "\n" +
-                    "Service" +
-                    "\n" +
-                    service +
-                    "\n" +
-                    "Message: " +
-                    message
-                );
-
-                // Check if user is on a mobile device
-                if (
-                    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-                        navigator.userAgent
-                    )
-                ) {
-                    // Mobile device, open WhatsApp
-                    var whatsappLink = `whatsapp://send?phone=${contact}&text=${encodedMessage}`;
-                    window.open(whatsappLink, "_blank");
-                } else {
-                    // Desktop device, open default email client
-                    emailjs
-                        .send("service_fx42pst", "template_2ngcxmf", {
-                            from_name: fullName,
-                            to_name: "Elysian Aesthetic Clinic",
-                            message: `Booking on ${date} at ${time}
+          // Check if user is on a mobile device
+          if (
+            /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+              navigator.userAgent
+            )
+          ) {
+            // Mobile device, open WhatsApp
+            var whatsappLink = `whatsapp://send?phone=${contact}&text=${encodedMessage}`;
+            window.open(whatsappLink, "_blank");
+          } else {
+            // Desktop device, open default email client
+            emailjs
+              .send("service_fx42pst", "template_2ngcxmf", {
+                from_name: fullName,
+                to_name: "Elysian Aesthetic Clinic",
+                message: `Booking on ${date} at ${time}
     Message : ${message}
     Service : ${service}
     Reply to ${email}`,
-                            reply_to: email,
-                        })
-                        .then(
-                            function (response) {
-                                alert("Mail Sent");
-                                document.getElementById("bookingForm").reset();
-                                console.log("response==>", response);
-                                // You can redirect or perform other actions after successful email sending
-                            },
-                            function (error) {
-                                alert("Error Sending Mail");
-                                console.log("error==>", error);
-                            }
-                        );
+                reply_to: email,
+              })
+              .then(
+                function (response) {
+                  alert("Mail Sent");
+                  document.getElementById("bookingForm").reset();
+                  console.log("response==>", response);
+                  // You can redirect or perform other actions after successful email sending
+                },
+                function (error) {
+                  alert("Error Sending Mail");
+                  console.log("error==>", error);
                 }
-            });
+              );
+          }
+        });
     </script>
-
-
-
-</body>
-
+  </body>
 </html>
