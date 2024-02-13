@@ -394,9 +394,10 @@ h6,
   color: black;
 }
 
+
 h1,
 .h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 1200px) {
@@ -421,12 +422,14 @@ h2,
 h3,
 .h3 {
   font-size: 1.75rem;
+  
 }
 
 @media (max-width: 1200px) {
   h3,
   .h3 {
     font-size: calc(1.3rem + 0.6vw);
+    
   }
 }
 
@@ -567,7 +570,7 @@ mark,
   bottom: 10px;
   left: 10px;
   font-size: 25px;
-  background-color: #865c22;
+  background-color: goldenrod;
   border-radius: 50%;
   box-shadow: 2px 5px 10px;
   z-index: 999;
@@ -4382,7 +4385,7 @@ input[type="button"].btn-block {
   z-index: 999;
   width: 100%;
   padding-bottom: 20px;
-  background-color: white !important;
+  background-color: goldenrod !important;
 }
 
 .navbar .container,
@@ -6660,7 +6663,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #865c22 !important;
+  background-color: goldenrod !important;
   margin-bottom: 15px;
 }
 .bg-light1 {
@@ -9983,7 +9986,7 @@ a.text-dark:focus {
 h1,
 h2,
 .font-weight-bold {
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
 
 h3,
