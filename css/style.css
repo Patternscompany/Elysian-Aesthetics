@@ -482,14 +482,14 @@ h6,
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
 
 @media (max-width: 1200px) {
   .display-3 {
-    font-size: calc(1.575rem + 3.9vw);
+    font-size: calc(0.575rem + 3.9vw);
   }
 }
 
@@ -10329,7 +10329,6 @@ h6,
   margin-top: 10px;
 }
 .mvv_list_row {
-  
   margin: 10px;
   text-align: center;
   padding: 12px 22px;
