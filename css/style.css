@@ -6664,7 +6664,7 @@ button.bg-danger:focus {
   margin-bottom: 15px;
 }
 .bg-light1 {
-  background-color: lightpink !important;
+  background-color: green !important;
 }
 
 a.bg-light:hover,
@@ -10160,12 +10160,33 @@ h6,
 
 .bg-jumbotron {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/girl_with_grey.webp), no-repeat center center;
+    url(../imge/laser-treat.jpeg), no-repeat center center;
   background-size: cover;
+}
+.bg-jumbotron-s {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/galleryhome.jpg), no-repeat center center;
+  background-size: cover;
+}
+.bg-jumbotron-skin {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/acne.jpg), no-repeat center center;
+  background-size: cover;
+}
+.bg-jumbotron-g {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/gallery.jpg), no-repeat center center;
+  background-size: cover;
+  height: 100vh;
 }
 .bg-jumbotron1 {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
     url(../imge/skin-treat.png), no-repeat center center;
+  background-size: cover;
+}
+.bg-jumbotron-h {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/laser-treat.jpeg), no-repeat center center;
   background-size: cover;
 }
 .bg-jumbotron2 {
@@ -10343,23 +10364,23 @@ h6,
   margin-top: 10px;
 }
 .mvv_list_row {
-position: relative;
-margin:10px ;
-text-align: center;
-/* padding: 35px 45px 19px; */
-border: 2px solid white;
-background: pink;
-/* box-shadow: 0px 4px 3px #b5b5b5; */
-width: 300px;
-height: 300px;
-border-radius: 50%;
+  position: relative;
+  margin: 10px;
+  text-align: center;
+  /* padding: 35px 45px 19px; */
+  border: 2px solid white;
+  background: pink;
+  /* box-shadow: 0px 4px 3px #b5b5b5; */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
-.mvv_list_row .mvv_list-info h3{
+.mvv_list_row .mvv_list-info h3 {
   text-transform: uppercase;
-    font-weight: 600;
-    margin: 17px 0 11px;
-    display: inline-block;
-    border-bottom: 2px dotted;
-    font-size: 16px;
-    color: black;
+  font-weight: 600;
+  margin: 17px 0 11px;
+  display: inline-block;
+  border-bottom: 2px dotted;
+  font-size: 16px;
+  color: black;
 }
