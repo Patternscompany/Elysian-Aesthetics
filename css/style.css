@@ -2562,13 +2562,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #dbc055;
+  background-color: goldenrod;
   border-color: #f9df7a;
 }
 
 .btn-primary:hover {
   color: #212529;
-  background-color: #f9df7a;
+  background-color: white;
   border-color: #f9df7a;
 }
 
@@ -2577,7 +2577,7 @@ fieldset:disabled a.btn {
   color: #212529;
   background-color: #f9df7a;
   border-color: #f9df7a;
-  box-shadow: 0 0 0 0.2rem rgba(217, 144, 130, 0.5);
+  box-shadow: 0 0 0 0.2rem goldenrod;
 }
 
 .btn-primary.disabled,
@@ -10181,7 +10181,7 @@ h6,
 }
 .bg-jumbotron1 {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/skin-treat.png), no-repeat center center;
+    url(../imge/homeslider-1.jpg), no-repeat center center;
   background-size: cover;
 }
 .bg-jumbotron-h {
@@ -10320,42 +10320,7 @@ h6,
 .text-white2 {
   color: #865c22;
 }
-/* * {
-  padding: 0;
-  margin: 0;
-}
-.navbar-nav .nav-link .nav ul {
-  list-style: none;
-  background: black;
-}
-.navbar-nav .nav-link .nav ul li {
-  display: inline-block;
-  position: relative;
-}
-.navbar-nav .nav-link .nav ul li a {
-  display: block;
-  padding: 20px 25px;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  font-size: 20px;
-}
-.navbar-nav .nav-link .nav ul dropdown li {
-  display: block;
-}
-.navbar-nav .nav-link .nav ul dropdown {
-  width: 100%;
-  background: goldenrod;
-  position: absolute;
-  z-index: 999;
-  display: none;
-}
-.navbar-nav .nav-link .nav ul li a :hover {
-  background: blue;
-}
-.navbar-nav .nav-link .nav :hover ul.dropdown {
-  display: block;
-} */
+
 .icon-img {
   float: left;
   margin-right: 10px;
@@ -10364,18 +10329,18 @@ h6,
   margin-top: 10px;
 }
 .mvv_list_row {
-  position: relative;
+  
   margin: 10px;
   text-align: center;
-  /* padding: 35px 45px 19px; */
+  padding: 12px 22px;
   border: 2px solid white;
   background: pink;
   /* box-shadow: 0px 4px 3px #b5b5b5; */
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
-.mvv_list_row .mvv_list-info h3 {
+/* .mvv_list_row .mvv_list-info h3 {
   text-transform: uppercase;
   font-weight: 600;
   margin: 17px 0 11px;
@@ -10383,4 +10348,4 @@ h6,
   border-bottom: 2px dotted;
   font-size: 16px;
   color: black;
-}
+} */
