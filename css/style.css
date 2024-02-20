@@ -10195,12 +10195,23 @@ h6,
     url(../imge/waxing.webp), no-repeat center center;
   background-size: cover;
 }
+.bg-jumbotron-meso {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/acne.jpg), no-repeat center center;
+  background-size: cover;
+}
+
 @media (max-width: 991px) {
   .bg-jumbotron2 {
     background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
       url(../imge/acnetreat-1.jpg), no-repeat center center;
     background-size: cover;
   }
+}
+.bg-jumbotron-meso {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/mesotherapy1.avif), no-repeat center center;
+  background-size: cover;
 }
 
 @media (min-width: 992px) {
@@ -10215,20 +10226,20 @@ h6,
       url(../imge/g-4.avif), no-repeat center center;
     background-size: cover;
   }
-  .bg-jumbotron-s{
+  .bg-jumbotron-s {
     background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/s-09.jpg), no-repeat center center;
-  background-size: cover;
+      url(../imge/s-09.jpg), no-repeat center center;
+    background-size: cover;
   }
   .bg-jumbotron-g {
     background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/s-04.jpg), no-repeat center center;
-  background-size: cover;
+      url(../imge/s-04.jpg), no-repeat center center;
+    background-size: cover;
   }
-  .bg-jumbotron1{
+  .bg-jumbotron1 {
     background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/gallery.jpg), no-repeat center center;
-  background-size: cover;
+      url(../imge/gallery.jpg), no-repeat center center;
+    background-size: cover;
   }
   .bg-jumbotron-h {
     background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
@@ -10437,7 +10448,6 @@ h6,
   width: 100%;
   /* margin: 20px auto; */
   background-color: #fff757;
-  
 }
 .columns {
   display: flex;
@@ -10449,22 +10459,52 @@ h6,
   flex: 3;
   border: 2px solid white;
   text-align: center;
-  
-  background:pink ;
+
+  background: pink;
   transition: 0.3s;
   border-radius: 10px;
-  width:250px;
-  height:250px;
+  width: 250px;
+  height: 250px;
   box-shadow: 0px 6px 5px #b5b5b5;
   margin: 24px;
   padding: 43px 52px 19px;
 }
-.wrapper .p{
-  
+.wrapper .p {
   display: block;
   line-height: 40px;
   text-align: center;
-padding-right: 25px;
-padding-left: 25px;
-  
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.check-box {
+  /* margin-left: 1px; */
+  padding-left: 10px;
+}
+.check-box li {
+  position: relative;
+  z-index: 0;
+  padding-left: 28px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.li {
+  list-style-type: none;
+}
+.check-box li ::after {
+  position: absolute;
+  z-index: 1;
+  content: "\f10f";
+  clear: both;
+  display: table;
+  font-family: "Flaticon";
+  left: 0;
+  top: 0;
+  color: #a60877;
+  font-size: 16px;
+  font-weight: 600;
+}
+.strong {
+  font-family: bold;
 }
