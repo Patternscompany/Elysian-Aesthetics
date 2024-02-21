@@ -10168,7 +10168,33 @@ h6,
     url(../imge/galleryhome.jpg), no-repeat center center;
   background-size: cover;
 }
+.icon-img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon-img .icon-text {
+  margin-left: 10px;
+}
+.img-thamnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 200px;
+  height: auto;
+}
 .bg-jumbotron-skin {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/acne.jpg), no-repeat center center;
+  background-size: cover;
+}
+.bg-jumbotron-reju {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
     url(../imge/acne.jpg), no-repeat center center;
   background-size: cover;
@@ -10429,7 +10455,7 @@ h6,
 }
 
 .ser_list .ser_info a {
-  color: red !important;
+  color: goldenrod !important;
   text-decoration: underline;
   padding-bottom: 10px;
   background-color: transparent;
