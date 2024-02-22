@@ -5239,7 +5239,7 @@ a.badge-dark.focus {
 
 .jumbotron {
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   background-color: #e9ecef;
 }
 
@@ -10411,6 +10411,7 @@ h6,
 }
 .text-white2 {
   color: #865c22;
+  text-decoration: underline;
 }
 
 .icon-img {
@@ -10565,6 +10566,39 @@ h6,
   font-size: 16px;
   font-weight: 600;
 }
+
 .strong {
   font-family: bold;
+}
+@media only screen and (max-width: 991px)
+.check-box{
+    text-align: left;
+    margin: 0;
+}
+..videos .work-videos {
+  text-transform: uppercase;
+  text-decoration: underline #ffc107;
+}
+ 
+.videos .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  
+}
+ 
+.videos .container .video {
+  height: 300px;
+  width: 300px;
+  background-color:black;
+}
+ 
+.videos .container .video video {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #ffc107;
 }
