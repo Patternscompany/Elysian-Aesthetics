@@ -3106,13 +3106,13 @@ fieldset:disabled a.btn {
 
 .btn-outline-light {
   color: #fef1ef;
-  border-color: #fef1ef;
+  border:1px solid goldenrod;
 }
 
 .btn-outline-light:hover {
-  color: #de9736 0%;
-  background-color: #fef1ef;
-  border-color: #fef1ef;
+  color:#02445f  0%;
+  background-color: goldenrod;
+  border:1px solid white;
 }
 
 .btn-outline-light:focus,
