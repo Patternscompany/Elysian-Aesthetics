@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Elysian Aesthetic Clinic</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./imge/logo.png" />
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="./lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="./lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="./css/style.css" rel="stylesheet" />
+  <!--book table script-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      // https://dashboard.emailjs.com/admin/account
+      emailjs.init("39hCsEwrxcKGEpEyd");
+    })();
+  </script>
+  <!--book table script-->
+</head>
+
+<body>
+  <!--
+    whatsapp logo
+-->
+
+  <div class="whatsapp">
+    <a href="https://wa.me/+9173866 39379" class="fab fa-whatsapp"></a>
+  </div>
+  <!--
+whatsapp logo
+-->
+
+  <!-- Navbar Start -->
+  <div class="container-fluid" style="padding: 0">
+    <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5" style="background-color: goldenrod">
+      <a href="#" class="navbar-brand ml-lg-3">
+        <img class="logo" src="./imge/logo.png" alt="" style="width: 90px" />
+      </a>
+      <button type="button" style="background-color: #f9df7a; box-shadow: 0px 2px 10px #f9df7a" class="navbar-toggler"
+        data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+        <div class="navbar-nav m-auto py-0">
+          <li>
+            <a href="./index.html" class="nav-item nav-link nav">Home</a>
+          </li>
+          <li>
+            <a href="./about.html" class="nav-item nav-link nav">About</a>
+          </li>
+          <li class="drop-down">
+            <a href="./service.html" class="nav-item nav-link nav">Services
+            </a>
+            <ul class="drop-items">
+              <li>
+                <a href="./skin-treatment.html">Skin-Treatment</a>
+              </li>
+              <li>
+                <a href="./Mesotherapy.html">Mesotherapy</a>
+              </li>
+              <li class="active">
+                <a href="./Acnetreat.html">Acnetreat</a>
+              </li>
+
+              <li>
+                <a href="./Skinrejuvenation.html">Skinrejuvenation</a>
+              </li>
+
+              <li>
+                <a href="./PRP_Hair.html">PRP For Hair</a>
+              </li>
+              <li>
+                <a href="./Laserhairremoval.html">Laser Hair Removal</a>
+              </li>
+              <li>
+                <a href="./Scalplaser.html">Scalp Laser & Hair Loss Treatment</a>
+              </li>
+
+              <li>
+                <a href="./hair-treatment.html">Hair-Treatment</a>
+              </li>
+
+
+
+            </ul>
+          </li>
+
+          <li>
+            <a href="./gallery.html" class="nav-item nav-link nav">Gallery</a>
+          </li>
+
+          <li>
+            <a href="./contact.html" class="nav-item nav-link nav">Contact us</a>
+          </li>
+        </div>
+        <a href="#appointment" class="btn btn-primary d-none d-lg-block nav" style="
+              padding-left: 10px;
+              background-color: white;
+              color: black !important;
+            ">Book Now</a>
+      </div>
+    </nav>
+  </div>
+  <style>
+    li.drop-down {
+      position: relative;
+    }
+
+    li.drop-down .drop-items {
+      position: absolute;
+      top: 100%;
+      background-color: goldenrod !important;
+      padding: 0;
+      left: 30%;
+      display: none;
+      width: 200px;
+      z-index: 9999;
+      border-radius: 5px;
+    }
+
+    li.drop-down .drop-items li {
+      padding: 10px 18px;
+      /* background-color: #613030; */
+      list-style-type: none;
+      border-radius: 5px;
+
+      border-bottom: 1px solid white;
+    }
+
+    li.drop-down .drop-items li a {
+      color: black;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 400;
+      /* text-transform: uppercase; */
+    }
+
+    li.drop-down .drop-items li:hover {
+      background-color: white;
+
+    }
+
+    li.drop-down .drop-items li:hover a {
+      color: goldenrod;
+      text-decoration: underline;
+    }
+
+    li.drop-down:hover .drop-items {
+      display: block;
+    }
+  </style>
+  <!-- Navbar End -->
+
+  <!-- Header Start -->
+  <div class="jumbotron jumbotron-fluid bg-jumbotron-acne" style=" height: 500px">
+    <div class="container text-center py-5">
+      <h3 class="text-white display-3 mb-4">Skin-Treatment</h3>
+      <div class="d-inline-flex align-items-center text-white">
+        <p class="m-0"><a class="text-white" href="./index.html">Home</a></p>
+        <i class="far fa-circle px-3"></i>
+        <p class="m-0">Skin-Treatment</p>
+        <i class="far fa-circle px-3"></i>
+        <p class="m-0">Acne-Treat</p>
+      </div>
+    </div>
+  </div>
+  <!-- Header End -->
+  <!--treatment strat-->
+
+  <div class="footer container-fluid position-relative py-5 pl-4" style="background: black" id="footer">
+    <h1 class="text-white2 text-center">CONCERN</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h3 class="text-white2 mb-4" style="font-size: 26px">
+            Acne & Pigmentation
+          </h3>
+          <div class="d-flex flex-column justify-content-start" style="font-size: 16px; line-height: 2.5rem">
+            <a class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>Acne Pimples</a>
+            <a class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>Open Pores</a>
+            <a class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>Acne Scars
+            </a>
+            <a class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>pigmentation</a>
+            <a class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>Under Eye Dark circles</a>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <h3 class="text-white2 mb-4" style="font-size: 26px">
+            Aging & Face Lifting
+          </h3>
+          <div class="d-flex flex-column justify-content-start" style="font-size: 16px; line-height: 2.5rem">
+            <a class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>Fine Lines & Wrinkles</a>
+            <a class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>Ageing Skin</a>
+            <a class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>Lip Reshaping
+            </a>
+            <a class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>Chin Enhancement</a>
+            <a class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>Double Chin Reduction</a><a
+              class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>Under Eye Rejuvenation</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="text-white2 mb-4" style="font-size: 26px">
+            Fat Reduction
+          </h3>
+          <div class="d-flex flex-column justify-content-start" style="font-size: 16px; line-height: 2.5rem">
+
+            <a class="text-white-50 mb-2"><i class="fa fa-angle-right mr-2"></i>Stretchmarks
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--treatment end-->
+  <!-- About Start -->
+  <div class="container-fluid py-2" style="background-color: lightpink">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-9">
+          <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">
+            Acne-Treatment
+          </h6>
+          <h1 class="mb-4">What is Acne?</h1>
+          <p class="pl-4 border-left border-primary">
+            <span style="color: goldenrod"> Acne-Treatment</span> is a Acne
+            out might be gentle, moderate, or serious (knobs and cysts).
+            Treatment relies upon the seriousness of the condition. Acne is a
+            hormonal condition driven by male or 'androgenic' hormones, which
+            ordinarily become dynamic during the teenage years. Affectability
+            to such hormones, joined with microorganisms on the skin, and
+            unsaturated fats inside oil organs, cause skin acne. Basic
+            destinations for skin acne are the face, chest, shoulders, neck,
+            and back - the locales of oil organs.
+          </p>
+          <p class="pl-4 border-left border-primary">
+            The treatment that is ideal for you relies upon your individual
+            condition. In the event that you have mellow to moderate skin
+            inflammation, for example,
+            <span style="color: goldenrod">whiteheads or clogged pores</span>,
+            your treatment ought to be generally simple.
+          </p>
+        </div>
+        <div class="col-lg-3 pb-5 pb-lg-0 pad">
+          <div class="text-center">
+            <img class="img-thamnail" src="./imge/s-04.jpg" alt="Acnetreat" />
+          </div>
+        </div>
+        <div class="col-md-12 mb-4">
+          <p class="mb-4">
+            Nonetheless, on the off chance that you have cystic or provocative
+            skin inflammation, your treatment might be all the more
+            challenging. Cystic skin break out is painful, large, red blisters
+            under the outside of your skin. Skin specialists in Hyderabad can
+            assist you with sorting out what kind of skin acne you have.
+          </p>
+          <p>
+            The skin break-out treatment plan that is ideal for you relies
+            upon numerous contemplations, including:
+          </p>
+        </div>
+        <div class="col-md-12">
+          <ul style="list-style-type:square;">
+            <li>Your age</li>
+            <li>When the breakouts began</li>
+            <li>Where the skin inflammation shows up on your skin</li>
+            <li>
+              What sort of skin breakout (i.e., clogged pores, pimples, and so
+              on) you have
+            </li>
+            <li>What medicines you've just attempted</li>
+            <li>
+              Whether the skin breakout has left you with dull spots or scars
+            </li>
+          </ul>
+          <p>
+            A dermatologist in Hyderabad may likewise prescribe adding one of
+            the accompanying to your treatment plan.
+          </p>
+
+          <ul style="list-style-type:square;">
+            <li>
+              A healthy diet
+
+            </li>
+            <li>
+              Laser or light treatment
+            </li>
+            <li>
+              A corticosteroid infusion
+            </li>
+          </ul>
+
+          <p class="mb-4">
+            Get the skin treatment from the
+            <span style="color: goldenrod">best skin specialist in Elysian Clinic-Hyderabad</span>
+          </p>
+          <div class="row align-items-center">
+            <div class="col-lg-9">
+              <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">
+                Derma Roller
+              </h6>
+              <h1 class="mb-4">What is Derma Roller And How Does it Work?</h1>
+              <p class="pl-4 border-left border-primary">
+                <span style="color: goldenrod"> Derma Rollers Treatment in Hyderabad</span> can treat a wide range of
+                skin problems including acne scars, pigmentation, spots, birthmarks and more. It is a safe and
+                non-surgical way of improving skin texture. The treatment gives people healthier, younger, and more
+                vital skin within just a few days. The results are long-lasting because it makes improvements at the
+                deeper and cellular level of the skin. Last but not the least, the procedure is virtually painless, all
+                you feel is a mild tingling sensation.
+              </p>
+              <p class="pl-4 border-left border-primary">
+                It uses a<span style="color: goldenrod"> Micro-Needling Technology </span>to trigger collagen
+                production. Derma roller has small and tiny needles on one of its ends. The needles are responsible for
+                creating small punctures in the skin. Don’t worry it does not harm the skin in any way because, it a
+                controlled skin injury that is being done to break scars, spots, stretch marks, and other skin flaws. As
+                soon as the procedure is completed, the skin begins to produce more and more collagen. Researchers have
+                reported that 4 dermaroller treatment session results in about 400% increase in collagen amount.
+
+              </p>
+            </div>
+            <div class="col-lg-3 pb-5 pb-lg-0 pad">
+              <div class="text-center">
+                <img class="img-thamnail" src="./imge/s-03.jpg" alt="Acnetreat" />
+              </div>
+            </div>
+            <div class="col-md-12">
+              <p class="mb-4">It improves the overall texture of the skin without leading to serious complications. The
+                treatment is the best option for you if:</p>
+              <ul style="list-style-type:square;">
+                <li>You have acne scars, stretch marks, <span style="color: goldenrod">Fine Lines and Wrinkles</span>.
+                </li>
+                <li>You are looking for a non-invasive treatment to improve your skin tone and texture.</li>
+                <li>You have pigmentation issue and want to solve it.</li>
+                <li>
+                  You are overall healthy and have realistic expectations.
+                </li>
+              </ul>
+              <p class="mb-4">Dermaroller has needles but they are so tiny that you will not feel any pain while using
+                it. The device is moved over the problem site and the needles penetrate deep in the skin to penetrate
+                the production of elastin and collagen.</p>
+              <p class="mb-4">You have to be a little careful after having Derma Rollers Treatment in Dubai & Abu Dhabi.
+                Do not rub or scratch your skin for at least about a week post-procedure. Hydration is very important.
+                Use medicated moisturizers and drink plenty of water to prevent your skin from drying out. Avoid sun
+                exposure, you should apply sunblock before going out.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About End -->
+
+  <!-- Service Start -->
+  <div class="container-fluid px-0" id="appointment">
+    <div class="row justify-content-center bg-appointment mx-0">
+      <div class="col-lg-6 py-2">
+        <div class="p-5 my-5">
+          <h1 class="text-center mb-2" style="color: white">
+            Make an Appointment
+          </h1>
+          <form id="bookingForm" class="bookingForm">
+            <div class="form-row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input type="text" class="form-control bg-transparent p-4 fullName" placeholder="Your Name"
+                    id="fullName" required="required" />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input id="mail" type="email" class="form-control bg-transparent p-4 mail" placeholder="Your Email"
+                    required="required" />
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <div class="date" data-target-input="nearest">
+                    <input id="date" type="date" class="form-control bg-transparent p-4 datetimepicker-input date"
+                      placeholder="Select Date" data-toggle="datetimepicker" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <div class="time" data-target-input="nearest">
+                    <input id="time" type="time" class="form-control bg-transparent p-4 datetimepicker-input time"
+                      placeholder="Select Time" data-toggle="datetimepicker" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input id="message" type="text" class="form-control bg-transparent p-4 message" placeholder="Message"
+                    required="required" />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select id="service" class="form-control bg-transparent" style="color: #f9df7a">
+                    <option value="Cutting" selected style="background-color: #02445f">
+                      Choose Category
+                    </option>
+                    <option value="Spa" style="background-color: #02445f">
+                      Skin
+                    </option>
+                    <option value="Beauty" style="background-color: #02445f">
+                      Hair
+                    </option>
+                    <option value="Massage" style="background-color: #02445f">
+                      Bueaty
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-sm-12">
+                <button class="btn btn-primary btn-block" type="submit" style="height: 47px">
+                  Book Appointment
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Service End -->
+  <!-- Footer Start -->
+  <div class="footer container-fluid position-relative py-2 pl-4" style="background: black" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pr-lg-5 mb-5">
+          <a href="#" class="navbar-brand">
+            <img src="./imge/logo.png" alt="" style="width: 160px; padding: 10px" />
+          </a>
+          <p></p>
+          <p>
+            <i class="fa fa-map-marker-alt mr-2"></i> 4-1382, Raja Rajeswara,
+            above Apollo Pharmacy, opposite to Hyundai Service Center, Raja
+            Rajeshwara Nagar, Kondapur, Telangana 500084
+          </p>
+          <p><i class="fa fa-phone-alt mr-2"></i> 073866 39379</p>
+          <p style="word-break: break-all">
+            <i class="fa fa-envelope mr-2"></i>elysianaestheticshyd@gmail.com
+          </p>
+          <div class="d-flex justify-content-start mt-4">
+            <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="tel:+91 073866 39379"><i class="fas fa-phone-alt"
+                style="color: #02445f !important"></i></a>
+            <a class="btn btn-lg btn-primary btn-lg-square mr-2"
+              href="https://www.google.com/maps/place/Elysian+Aesthetics/@17.470086,78.3503991,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93a1df991fbf:0x755e78ec4c68cdd3!8m2!3d17.4700809!4d78.352974!16s%2Fg%2F11k3xt4156?authuser=0&entry=ttu">
+              <i class="fas fa-map-marker-alt" style="color: #02445f !important"></i></a>
+            <a class="btn btn-lg btn-primary btn-lg-square mr-2"
+              href="https://www.facebook.com/ElysianAestheticshyd/"><i class="fab fa-facebook-f"
+                style="color: #02445f !important"></i></a>
+            <a class="btn btn-lg btn-primary btn-lg-square"
+              href="https://www.instagram.com/explore/locations/111328871823585/elysian-aesthetics/"><i
+                class="fab fa-instagram" style="color: #02445f !important"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-6 pl-lg-5">
+          <div class="row">
+            <div class="col-sm-6 mb-5">
+              <h5 class="text-white text-uppercase mb-4">Quick Links</h5>
+              <div class="d-flex flex-column justify-content-start">
+                <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About</a>
+                <a class="text-white-50 mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Our Services
+                </a>
+                <a class="text-white-50 mb-2" href="gallery.html"><i class="fa fa-angle-right mr-2"></i>Gallery</a>
+                <a class="text-white-50" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-5">
+              <h5 class="text-white text-uppercase mb-4">Our Services</h5>
+              <div class="d-flex flex-column justify-content-start">
+                <a class="text-white-50 mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>All Skin
+                  Treatments</a>
+                <a class="text-white-50 mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Hair
+                  Treatment</a>
+                <a class="text-white-50 mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Bueaty Care</a>
+                <a class="text-white-50 mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Skin Care</a>
+                <!-- <a class="text-white-50" href="service.html"><i class="fa fa-angle-right mr-2"></i></a> -->
+              </div>
+            </div>
+            <div class="col-sm-12 mb-5 pt-3">
+              <h3>Elysian Aesthetic Clinic</h3>
+              <p>
+                <span class="star">&#9733;</span>If you want to achieve
+                beautiful skin, stronger hair, and enhanced overall
+                appearance?
+              </p>
+            </div>
+            <div class="form-row">
+              <a href="contact.html">
+                <div class="col-sm-12">
+                  <button class="btn btn-primary btn-block" type="submit" style="height: 47px">
+                    Book Appointment
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-light border-top py-4" style="border-color: #b17b34 !important; background: black">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+          <p class="m-0 text-white">
+            &copy;
+            <a href="#" style="color: #b17b34">ELYSIAN AESTHETIC CLINIC</a>.
+            All Rights Reserved.
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-right">
+          <p class="m-0 text-white">
+            Designed by
+            <a href="https://htmlcodex.com" style="color: #b17b34">The Patterns Company</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"
+      style="color: #02445f !important"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/tempusdominus/js/moment.min.js"></script>
+  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+  <!-- Contact Javascript File -->
+  <script src="mail/jqBootstrapValidation.min.js"></script>
+  <script src="mail/contact.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+  <!--chatbot script-->
+  <!--Start of Tawk.to Script-->
+  <!-- <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6560ec7aba9fcf18a80e9f46/1hg19ng29';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script> -->
+  <!--End of Tawk.to Script-->
+  <script>
+    //book appointment
+
+    document
+      .getElementById("bookingForm")
+      .addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        var fullName = document.getElementById("fullName").value;
+        var email = document.getElementById("mail").value;
+        var date = document.getElementById("date").value;
+        var time = document.getElementById("time").value;
+        var message = document.getElementById("message").value;
+        var service = document.getElementById("service").value;
+
+        // debugger
+
+        // if (!fullName) {
+        //     showError(document.getElementById("name"), "Please enter your name.");
+        //     // return;
+        // }
+
+        // if (!email) {
+        //     showError(document.getElementById("email"), "Please enter your email.");
+        //     // return;
+        // }
+
+        // if (!subject) {
+        //     showError(document.getElementById("subject"), "Please enter a subject.");
+        //     // return;
+        // }
+
+        // if (!message) {
+        //     showError(document.getElementById("message"), "Please enter your message.");
+        //     // return;
+        // }
+        var contact = "+9173373 59025";
+
+        var encodedMessage = encodeURIComponent(
+          "Name: " +
+          fullName +
+          "\n" +
+          "Email: " +
+          email +
+          "\n" +
+          "Date: " +
+          date +
+          "\n" +
+          "Time: " +
+          time +
+          "\n" +
+          "Service" +
+          "\n" +
+          service +
+          "\n" +
+          "Message: " +
+          message
+        );
+
+        // Check if user is on a mobile device
+        if (
+          /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+            navigator.userAgent
+          )
+        ) {
+          // Mobile device, open WhatsApp
+          var whatsappLink = `whatsapp://send?phone=${contact}&text=${encodedMessage}`;
+          window.open(whatsappLink, "_blank");
+        } else {
+          // Desktop device, open default email client
+          emailjs
+            .send("service_fx42pst", "template_2ngcxmf", {
+              from_name: fullName,
+              to_name: "The Glamour Lounge Unisex Salon",
+              message: `Booking on ${date} at ${time}
+    Message : ${message}
+    Service : ${service}
+    Reply to ${email}`,
+              reply_to: email,
+            })
+            .then(
+              function (response) {
+                alert("Mail Sent");
+                document.getElementById("bookingForm").reset();
+                console.log("response==>", response);
+                // You can redirect or perform other actions after successful email sending
+              },
+              function (error) {
+                alert("Error Sending Mail");
+                console.log("error==>", error);
+              }
+            );
+        }
+      });
+  </script>
+</body>
+
+</html>
