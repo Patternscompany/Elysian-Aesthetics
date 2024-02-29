@@ -10148,14 +10148,16 @@ h6,
 }
 
 .bg-pricing {
-  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/g-8.avif) no-repeat center center;
+  /* background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/g-8.avif) no-repeat center center; */
   background-size: cover;
+  background-color: #6c757d;
 }
 .bg-pricing1 {
-  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/bg.service.avif) no-repeat center center;
+  /* background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/bg.service.avif) no-repeat center center; */
   background-size: cover;
+  background-color:#c8ac97;
 }
 
 .bg-jumbotron {
