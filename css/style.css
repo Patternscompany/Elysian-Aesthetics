@@ -86,6 +86,7 @@ h5,
 h6 {
   /* margin-top: 20px; */
   margin-bottom: 0.5rem;
+  margin-top: 0 !important;
 }
 
 p {
@@ -9769,7 +9770,9 @@ button.bg-dark:focus {
 .font-weight-bolder {
   font-weight: bolder !important;
 }
-
+.text-black {
+  color: white;
+}
 .font-italic {
   font-style: italic !important;
 }
@@ -9779,7 +9782,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: white !important;
+  color: goldenrod !important;
   /* color: white !important; */
 }
 
@@ -10009,7 +10012,9 @@ h6,
 .btn.btn-secondary {
   color: white !important;
 }
-
+.btn.btn-primary:hover {
+  color: #000 !important;
+}
 .btn-square {
   width: 36px;
   height: 36px;
