@@ -10193,15 +10193,12 @@ h6,
   background-size: cover;
 }
 .bg-jumbotron-reju {
-  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/acne.jpg), no-repeat center center;
-  background-size: cover;
+  background: rgba(0, 0, 0, 0.5);
 }
 .bg-jumbotron-g {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
     url(../imge/gallery.jpg), no-repeat center center;
   background-size: cover;
-  height: 100vh;
 }
 .bg-jumbotron1 {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
@@ -10740,4 +10737,7 @@ li.drop-down:hover .drop-items {
 }
 .footer.related {
   border-bottom: 1px solid white;
+}
+.footer.related a {
+  color: black !important;
 }
