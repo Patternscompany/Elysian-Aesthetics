@@ -162,13 +162,13 @@ sup {
 }
 
 a {
-  color: #f9a392;
+  color: #000;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #f56649;
+  color: #000 !important;
   text-decoration: underline;
 }
 
@@ -10257,7 +10257,7 @@ h6,
 @media (min-width: 992px) {
   .hours-text,
   .pricing-text {
-    margin-left: -90px;
+    /* margin-left: -90px; */
   }
 }
 
