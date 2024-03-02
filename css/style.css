@@ -10167,6 +10167,11 @@ h6,
     url(../imge/galleryhome.jpg), no-repeat center center;
   background-size: cover;
 }
+.bg-jumbotron6{
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/menland.avif), no-repeat center center;
+  background-size: cover;
+}
 .icon-img {
   display: flex;
   justify-content: flex-start;
