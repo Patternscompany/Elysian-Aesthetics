@@ -10225,6 +10225,17 @@ h6,
     url(../imge/mesotherapy1.avif), no-repeat center center;
   background-size: cover;
 }
+.bg-jumbotron-acne {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/acne1.jpg), no-repeat center center;
+  background-size: cover;
+}
+.bg-jumbotron4{
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+  url(../imge/mesotherapy1.avif), no-repeat center center;
+background-size: cover;
+
+}
 
 @media (max-width: 991px) {
   .bg-jumbotron2 {
@@ -10238,14 +10249,10 @@ h6,
     url(../imge/mesotherapy1.avif), no-repeat center center;
   background-size: cover;
 }
-.bg-jumbotron-acne {
-  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/acne.jpg), no-repeat center center;
-  background-size: cover;
-}
+
 .bg-jumbotron-prp {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/PRP.avif), no-repeat center center;
+    url(../imge/laser-treat.jpeg), no-repeat center center;
   background-size: cover;
 }
 .bg-jumbotron-Laserhair {
@@ -10255,9 +10262,10 @@ h6,
 }
 .bg-jumbotron-scalp {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/scalp.avif), no-repeat center center;
+    url(../imge/gallery.jpg), no-repeat center center;
   background-size: cover;
 }
+
 
 @media (min-width: 992px) {
   .hours-text,
@@ -10274,7 +10282,7 @@ h6,
   }
   .bg-jumbotron-scalp {
     background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-      url(../imge/s-09.jpg), no-repeat center center;
+      url(../imge/gallery.jpg), no-repeat center center;
     background-size: cover;
   }
   .bg-jumbotron-Laserhair {
@@ -10306,6 +10314,17 @@ h6,
     background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
       url(../imge/s-09.jpg), no-repeat center center;
     background-size: cover;
+  }
+  .bg-jumbotron-acne {
+    background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+      url(../imge/acne2.jpg), no-repeat center center;
+    background-size: cover;
+  }
+  .bg-jumbotron4{
+    background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
+    url(../imge/filler.jpg), no-repeat center center;
+  background-size: cover;
+  
   }
 }
 .team img {
