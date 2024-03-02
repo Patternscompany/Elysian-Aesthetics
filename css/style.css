@@ -386,6 +386,7 @@ h6,
   font-weight: 500;
   line-height: 1.2;
   color: black;
+  margin: top 0.5rem; ;
 }
 
 h1,
@@ -10763,4 +10764,11 @@ li.drop-down:hover .drop-items {
 }
 .footer.related a {
   color: black !important;
+}
+.gradient-strip {
+  width: 120px;
+  margin: 10px auto;
+  background: transparent linear-gradient(90deg, #de9736 0%, #ecc851 100%) 0% 0% no-repeat padding-box;
+  height: 6px;
+  border-radius: 20px;
 }
