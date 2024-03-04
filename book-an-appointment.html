@@ -162,37 +162,39 @@
           <div class="contact-form bg-light1 p-4 p-lg-5 my-lg-5">
             <h1 class="mb-4">Appointment</h1>
             <div id="success"></div>
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <form name="sentMessage" id="bookingForm" novalidate="novalidate">
               <div class="form-row">
                 <div class="col-sm-12 control-group">
-                  <input type="text" class="form-control border-0 p-4" id="name" placeholder="Your Name"
-                    required="required" data-validation-required-message="Please enter your name" />
+                  <input type="text" class="form-control border-0 p-4" id="name" placeholder="Your Name" required
+                    data-validation-required-message="Please enter your name" />
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="col-sm-12 control-group">
-                  <input type="email" class="form-control border-0 p-4" id="email" placeholder="Your Email"
-                    required="required" data-validation-required-message="Please enter your email" />
+                  <input type="email" class="form-control border-0 p-4" id="email" placeholder="Your Email" required
+                    data-validation-required-message="Please enter your email" />
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="col-sm-12 control-group">
-                  <input type="number" class="form-control border-0 p-4" id="number" placeholder="Your Number"
-                    required="required" data-validation-required-message="Please enter your number" />
+                  <input type="number" class="form-control border-0 p-4" id="number" placeholder="Your Number" required
+                    data-validation-required-message="Please enter your number" />
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="col-sm-12 control-group">
-                  <input type="date" class="form-control border-0 p-4" id="date" placeholder="Enter Date"
-                    required="required" data-validation-required-message="Please enter Date" />
+                  <input type="date" class="form-control border-0 p-4" id="date" placeholder="Enter Date" required
+                    data-validation-required-message="Please enter Date" />
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
-                <input type="text" class="form-control border-0 p-4" id="subject" placeholder="Subject"
-                  required="required" data-validation-required-message="Please enter a subject" />
+                <select name="" id="service" class="form-control">
+                  <option value="Hair Treatment">Hair Treatment</option>
+                  <option value="Skin Treatment">Skin Treatment</option>
+                </select>
                 <p class="help-block text-danger"></p>
               </div>
               <div class="control-group">
-                <textarea class="form-control border-0 py-3 px-4" rows="3" id="message" placeholder="Message"
-                  required="required" data-validation-required-message="Please enter your message"></textarea>
+                <textarea class="form-control border-0 py-3 px-4" rows="3" id="message" placeholder="Message" required
+                  data-validation-required-message="Please enter your message"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
               <div>
@@ -408,7 +410,104 @@ whatsapp logo
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
   <!--chatbot script-->
+  <script>
+    //book appointment
+    document.getElementById("bookingForm").addEventListener("submit", function (event) {
+      event.preventDefault();
 
+      var fullName = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var date = document.getElementById("date").value;
+
+      var number = document.getElementById("number").value;
+      var message = document.getElementById("message").value;
+      var service = document.getElementById("service").value;
+      var contact = "+917386639379";
+
+
+      // Error checking and message display
+      var hasError = false;
+      var errorMessage = "";
+
+      if (fullName === "") {
+        hasError = true;
+        errorMessage += "Please enter your name.\n";
+        document.getElementById("name").nextElementSibling.style.display = "block";
+      } else {
+        document.getElementById("name").nextElementSibling.style.display = "none";
+      }
+
+      if (email === "" || !validateEmail(email)) {
+        hasError = true;
+        errorMessage += "Please enter a valid email address.\n";
+        document.getElementById("email").nextElementSibling.style.display = "block";
+      } else {
+        document.getElementById("email").nextElementSibling.style.display = "none";
+      }
+
+      if (number === "") {
+        hasError = true;
+        errorMessage += "Please enter your phone number.\n";
+        document.getElementById("number").nextElementSibling.style.display = "block";
+      } else {
+        document.getElementById("number").nextElementSibling.style.display = "none";
+      }
+
+      if (date === "") {
+        hasError = true;
+        errorMessage += "Please enter your preferred date.\n";
+        document.getElementById("date").nextElementSibling.style.display = "block";
+      } else {
+        document.getElementById("date").nextElementSibling.style.display = "none";
+      }
+
+      if (message === "") {
+        hasError = true;
+        errorMessage += "Please enter your message.\n";
+        document.getElementById("message").nextElementSibling.style.display = "block";
+      } else {
+        document.getElementById("message").nextElementSibling.style.display = "none";
+      }
+
+
+      if (!hasError) {
+        var encodedMessage = encodeURIComponent(
+          "Name: " +
+          fullName +
+          "\n" +
+          "Email: " +
+          email +
+          "\n" +
+          "Number: " +
+          number +
+          "\n" +
+          "Date: " +
+          date +
+          "\n" +
+          "Service: " +
+          service +
+          "\n" +
+          "Message: " +
+          message
+        );
+
+        // Mobile device, open WhatsApp
+        var whatsappLink = `https://wa.me/${contact}?text=${encodedMessage}`;
+        window.open(whatsappLink, "_blank");
+
+        // Additional: You can reset the form and show a thank you message if needed
+        document.getElementById("thankYouMessage").style.display = "block";
+        document.getElementById("bookingForm").reset();
+      } else {
+        // Display error message
+        alert(errorMessage);
+      }
+    });
+    function validateEmail(email) {
+      const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(String(email).toLowerCase());
+    }
+  </script>
 </body>
 
 </html>
