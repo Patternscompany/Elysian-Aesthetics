@@ -386,7 +386,7 @@ h6,
   font-weight: 500;
   line-height: 1.2;
   color: black;
-  margin: top 0.5rem; ;
+  margin: top 0.5rem;
 }
 
 h1,
@@ -10165,10 +10165,10 @@ h6,
 }
 .bg-jumbotron-s {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/galleryhome.jpg), no-repeat center center;
+    no-repeat center center;
   background-size: cover;
 }
-.bg-jumbotron6{
+.bg-jumbotron6 {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
     url(../imge/menland.avif), no-repeat center center;
   background-size: cover;
@@ -10231,11 +10231,10 @@ h6,
     url(../imge/acne1.jpg), no-repeat center center;
   background-size: cover;
 }
-.bg-jumbotron4{
+.bg-jumbotron4 {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-  url(../imge/mesotherapy1.avif), no-repeat center center;
-background-size: cover;
-
+    url(../imge/mesotherapy1.avif), no-repeat center center;
+  background-size: cover;
 }
 
 @media (max-width: 991px) {
@@ -10266,7 +10265,6 @@ background-size: cover;
     url(../imge/gallery.jpg), no-repeat center center;
   background-size: cover;
 }
-
 
 @media (min-width: 992px) {
   .hours-text,
@@ -10321,11 +10319,10 @@ background-size: cover;
       url(../imge/acne2.jpg), no-repeat center center;
     background-size: cover;
   }
-  .bg-jumbotron4{
+  .bg-jumbotron4 {
     background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
-    url(../imge/filler.jpg), no-repeat center center;
-  background-size: cover;
-  
+      url(../imge/filler.jpg), no-repeat center center;
+    background-size: cover;
   }
 }
 .team img {
@@ -10768,7 +10765,8 @@ li.drop-down:hover .drop-items {
 .gradient-strip {
   width: 120px;
   margin: 10px auto;
-  background: transparent linear-gradient(90deg, #de9736 0%, #ecc851 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #de9736 0%, #ecc851 100%) 0% 0%
+    no-repeat padding-box;
   height: 6px;
   border-radius: 20px;
 }
